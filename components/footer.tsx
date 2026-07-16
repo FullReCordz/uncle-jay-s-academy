@@ -26,13 +26,33 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/tutors" className="text-ujo-text-light hover:text-ujo-text">
-                  Meet Tutors
+                <Link href="/about" className="text-ujo-text-light hover:text-ujo-text">
+                  About Us
                 </Link>
               </li>
               <li>
-                <Link href="#programs" className="text-ujo-text-light hover:text-ujo-text">
+                <Link href="/programs" className="text-ujo-text-light hover:text-ujo-text">
                   Programs
+                </Link>
+              </li>
+              <li>
+                <Link href="/tutors" className="text-ujo-text-light hover:text-ujo-text">
+                  Tutors
+                </Link>
+              </li>
+              <li>
+                <Link href="/testimonials" className="text-ujo-text-light hover:text-ujo-text">
+                  Testimonials
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" className="text-ujo-text-light hover:text-ujo-text">
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-ujo-text-light hover:text-ujo-text">
+                  Contact
                 </Link>
               </li>
             </ul>

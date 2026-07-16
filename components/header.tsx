@@ -9,13 +9,13 @@ export default function Header() {
   const [isExploreOpen, setIsExploreOpen] = useState(false)
 
   const exploreItems = [
-    { label: 'About Us', href: '#about', description: 'Our story, mission, and values' },
-    { label: 'Programs/Courses', href: '#programs', description: 'Explore all subjects and learning tracks' },
-    { label: 'Enroll', href: '#enroll', description: "Start your child's learning journey" },
+    { label: 'About Us', href: '/about', description: 'Our story, mission, and values' },
+    { label: 'Programs/Courses', href: '/programs', description: 'Explore all subjects and learning tracks' },
+    { label: 'Enroll', href: '/enroll', description: "Start your child's learning journey" },
     { label: 'Tutors', href: '/tutors', description: 'Meet the educators behind UJA' },
-    { label: 'Testimonials', href: '#testimonials', description: 'Hear from our parents and students' },
-    { label: 'FAQ', href: '#faq', description: 'Answers to common questions' },
-    { label: 'Contact', href: '#contact', description: 'Get in touch with our team' },
+    { label: 'Testimonials', href: '/testimonials', description: 'Hear from our parents and students' },
+    { label: 'FAQ', href: '/faq', description: 'Answers to common questions' },
+    { label: 'Contact', href: '/contact', description: 'Get in touch with our team' },
   ]
 
   return (
