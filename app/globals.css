@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@theme {
+  --color-ujo-bg: #f8fafb;
+  --color-ujo-blue: #C9D6E8;
+  --color-ujo-blue-dark: #a8b8d0;
+  --color-ujo-purple: #7c3aed;
+  --color-ujo-gold: #f59e0b;
+  --color-ujo-pink: #ec4899;
+  --color-ujo-text: #1a202c;
+  --color-ujo-text-light: #4a5568;
+  --color-ujo-white: #ffffff;
+}
+
+@layer base {
+  body {
+    @apply bg-ujo-bg text-ujo-text;
+  }
+}
