@@ -358,6 +358,29 @@ export default function TestimonialsPage() {
           </div>
         </section>
 
+        {/* Share Your Story Section */}
+        <section className="py-16 md:py-24 bg-ujo-blue/10">
+          <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-4 text-center">
+              Share Your Story
+            </h2>
+            <p className="text-center text-ujo-text-light mb-8">
+              Had a great experience with UJA? We&apos;d love to hear about it. Submit your testimonial below and inspire other families.
+            </p>
+
+            <iframe
+              src="https://tally.so/embed/dW1x5y"
+              width="100%"
+              height="600"
+              frameBorder="0"
+              marginHeight={0}
+              marginWidth={0}
+              title="Submit Your Testimonial"
+              className="rounded-lg"
+            />
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-16 md:py-24 bg-gradient-to-r from-ujo-purple via-ujo-gold to-ujo-pink">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

@@ -26,7 +26,7 @@ export default function EnrollPage() {
               Our Enrollment Process
             </h2>
 
-            <div className="grid md:grid-cols-4 gap-8 mb-12">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
               {[
                 {
                   step: '1',
@@ -48,14 +48,14 @@ export default function EnrollPage() {
                 },
                 {
                   step: '4',
-                  title: 'Start Learning',
-                  description: 'Begin your first session! Your customized learning journey starts here.',
-                  time: 'Within 48 hours',
+                  title: 'Student Profile',
+                  description: 'Complete your child\'s student profile with learning preferences and goals.',
+                  time: 'Before first session',
                 },
               ].map((item, index) => (
                 <div key={index} className="relative">
                   {index < 3 && (
-                    <div className="hidden md:block absolute top-12 left-1/2 w-full h-0.5 bg-ujo-blue/30" />
+                    <div className="hidden lg:block absolute top-12 left-1/2 w-full h-0.5 bg-ujo-blue/30" />
                   )}
 
                   <div className="relative z-10 bg-ujo-white rounded-xl p-6 border-2 border-ujo-blue hover:shadow-lg transition-shadow">
@@ -148,12 +148,15 @@ export default function EnrollPage() {
           </div>
         </section>
 
-        {/* Enrollment Form */}
+        {/* Step 1-3: Initial Enrollment Form */}
         <section className="py-16 md:py-24">
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-8 text-center">
-              Start Your Enrollment
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-2 text-center">
+              Steps 1-3: Book Your Consultation
             </h2>
+            <p className="text-center text-ujo-text-light mb-8">
+              Start by filling out this form to schedule your free consultation and initial assessment.
+            </p>
 
             <iframe
               src="https://tally.so/embed/dW1x5y"
@@ -162,7 +165,30 @@ export default function EnrollPage() {
               frameBorder="0"
               marginHeight={0}
               marginWidth={0}
-              title="Enrollment Form"
+              title="Consultation and Initial Enrollment Form"
+              className="rounded-lg"
+            />
+          </div>
+        </section>
+
+        {/* Step 4: Student Profile Form */}
+        <section className="py-16 md:py-24 bg-ujo-blue/10">
+          <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-2 text-center">
+              Step 4: Complete Your Child&apos;s Student Profile
+            </h2>
+            <p className="text-center text-ujo-text-light mb-8">
+              After your consultation, complete this form to build your child&apos;s personalized student profile and learning preferences. This ensures we tailor the best experience for your child.
+            </p>
+
+            <iframe
+              src="https://forms.gle/tMZzTXTXq4mupFpg9"
+              width="100%"
+              height="600"
+              frameBorder="0"
+              marginHeight={0}
+              marginWidth={0}
+              title="Student Profile Onboarding Form"
               className="rounded-lg"
             />
           </div>
