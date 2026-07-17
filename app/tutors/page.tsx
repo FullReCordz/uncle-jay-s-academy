@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import TutorProfile from '@/components/tutor-profile'
@@ -21,8 +22,14 @@ export default function TutorsPage() {
       <section className="py-16 bg-ujo-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="bg-gradient-to-br from-ujo-purple/20 to-ujo-gold/20 rounded-2xl aspect-square flex items-center justify-center">
-              <div className="text-9xl">👨‍🏫</div>
+            <div className="relative h-96 md:h-full rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src="/tutors/babajide-oduga.png"
+                alt="Babajide Oduga - Uncle Jay"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
             <div>
               <h2 className="font-serif text-4xl font-bold text-ujo-text mb-6">
@@ -48,14 +55,14 @@ export default function TutorsPage() {
       <TutorProfile
         name="Babajide Oduga"
         role="Uncle Jay – Mathematics"
-        emoji="📐"
+        image="/tutors/babajide-oduga.png"
         bio="Math tutor extraordinaire. An adaptable and fun educator with years of teaching and tutoring experience. Demonstrates strong communication, empathy, and a passion that enables him to connect with learners of diverse abilities and backgrounds. Driven by patience, professionalism, and a genuine passion for student growth."
       />
 
       <TutorProfile
         name="Abigeal Ogunlaja"
         role="Miss Abby – Mathematics"
-        emoji="🔢"
+        image="/tutors/abigeal-ogunlaja.png"
         reversed
         bio="A First-Class final-year Mathematics student with a strong passion for teaching and academic excellence. Has years of experience tutoring younger learners, helping them build a clear understanding of mathematical concepts. Her goal is to make mathematics simple, logical, and engaging while fostering confidence and a genuine interest in the subject."
       />
@@ -63,7 +70,7 @@ export default function TutorsPage() {
       <TutorProfile
         name="Deborah Adesile"
         role="Miss Queen – English"
-        emoji="📚"
+        image="/tutors/deborah-adesile.png"
         bio="An English educator with over 10 years of experience teaching learners from preschool through advanced exams like SAT and IELTS. Her philosophy is simple: 'every student can thrive when learning is personal, practical, and inspiring.' She creates lessons that build fluency, confidence, and mastery, forming strong personal connections with every student to help them unlock their strengths."
       />
 

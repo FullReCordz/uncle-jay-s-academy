@@ -1,29 +1,35 @@
 import { ChevronRight } from 'lucide-react'
+import Image from 'next/image'
 
 interface TutorProfileProps {
   name: string
   role: string
   bio: string
-  image?: string
+  image: string
   reversed?: boolean
-  emoji: string
 }
 
 export default function TutorProfile({
   name,
   role,
   bio,
+  image,
   reversed = false,
-  emoji,
 }: TutorProfileProps) {
   return (
     <section className="py-16 bg-ujo-blue">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`grid md:grid-cols-2 gap-12 items-center`}>
-          {/* Image/Illustration */}
+          {/* Image */}
           <div className={reversed ? 'md:order-2' : ''}>
-            <div className="bg-gradient-to-br from-ujo-purple/20 to-ujo-gold/20 rounded-2xl aspect-square flex items-center justify-center">
-              <div className="text-9xl">{emoji}</div>
+            <div className="relative h-96 md:h-full rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src={image}
+                alt={name}
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
 
