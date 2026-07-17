@@ -1,34 +1,8 @@
-'use client'
-
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
-import { useState } from 'react'
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  })
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
-  ) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }))
-  }
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    // In production, this would send to an email service
-    console.log('Form submitted:', formData)
-    setFormData({ name: '', email: '', subject: '', message: '' })
-  }
 
   return (
     <>
@@ -119,90 +93,21 @@ export default function ContactPage() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-12">
-              {/* Contact Form */}
+              {/* Contact Form - Tally Embed */}
               <div>
                 <h2 className="text-2xl font-serif font-bold text-ujo-text mb-6">
                   Send us a Message
                 </h2>
-
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  {/* Name */}
-                  <div>
-                    <label className="block text-sm font-medium text-ujo-text mb-2">
-                      Full Name
-                    </label>
-                    <input
-                      type="text"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-ujo-blue"
-                      placeholder="Your name"
-                    />
-                  </div>
-
-                  {/* Email */}
-                  <div>
-                    <label className="block text-sm font-medium text-ujo-text mb-2">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-ujo-blue"
-                      placeholder="your@email.com"
-                    />
-                  </div>
-
-                  {/* Subject */}
-                  <div>
-                    <label className="block text-sm font-medium text-ujo-text mb-2">
-                      Subject
-                    </label>
-                    <select
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-ujo-blue"
-                    >
-                      <option value="">Select a subject</option>
-                      <option value="inquiry">General Inquiry</option>
-                      <option value="consultation">Schedule Consultation</option>
-                      <option value="enrollment">Enrollment Question</option>
-                      <option value="feedback">Feedback</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-
-                  {/* Message */}
-                  <div>
-                    <label className="block text-sm font-medium text-ujo-text mb-2">
-                      Message
-                    </label>
-                    <textarea
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                      rows={5}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-ujo-blue"
-                      placeholder="Tell us how we can help..."
-                    />
-                  </div>
-
-                  {/* Submit Button */}
-                  <button
-                    type="submit"
-                    className="w-full bg-gradient-to-r from-ujo-purple to-ujo-pink text-ujo-white font-semibold py-3 rounded-lg hover:opacity-90 transition-opacity"
-                  >
-                    Send Message
-                  </button>
-                </form>
+                <iframe
+                  src="https://tally.so/embed/dW1x5y"
+                  width="100%"
+                  height="600"
+                  frameBorder="0"
+                  marginHeight={0}
+                  marginWidth={0}
+                  title="Contact Form"
+                  className="rounded-lg"
+                />
               </div>
 
               {/* FAQ Section */}
