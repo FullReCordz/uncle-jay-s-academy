@@ -10,8 +10,11 @@ export default function HeroSection() {
             <h1 className="font-serif text-4xl md:text-5xl font-bold text-ujo-text mb-6 leading-tight">
               Raising Confident African Scholars for a Global Future
             </h1>
-            <p className="text-lg text-ujo-text-light mb-8 leading-relaxed">
+            <p className="text-lg text-ujo-text-light mb-2 leading-relaxed">
               Personalized virtual learning designed to help African children in the diaspora excel academically, build confidence, and stay connected to a culture of excellence.
+            </p>
+            <p className="text-lg font-semibold text-ujo-purple mb-8">
+              Excellence through guided learning
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-ujo-purple hover:bg-indigo-700 text-ujo-white font-semibold px-8 py-3 rounded-lg transition-colors">

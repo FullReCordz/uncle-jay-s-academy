@@ -30,10 +30,10 @@ export default function AboutPage() {
                   <div className="w-12 h-12 bg-ujo-purple rounded-lg flex items-center justify-center">
                     <span className="text-2xl">🎯</span>
                   </div>
-                  <h2 className="text-2xl font-serif font-bold text-ujo-text">Our Mission</h2>
+                  <h2 className="text-2xl font-serif font-bold text-ujo-text">Mission</h2>
                 </div>
                 <p className="text-ujo-text-light leading-relaxed">
-                  To provide accessible, personalized, and culturally-aware virtual tutoring that builds academic excellence, boosts confidence, and celebrates African heritage for children in the diaspora.
+                  To create a calm and supportive learning space where every student feels encouraged and equipped to learn and excel.
                 </p>
               </div>
 
@@ -43,10 +43,10 @@ export default function AboutPage() {
                   <div className="w-12 h-12 bg-ujo-white rounded-lg flex items-center justify-center">
                     <span className="text-2xl">🌟</span>
                   </div>
-                  <h2 className="text-2xl font-serif font-bold text-ujo-white">Our Vision</h2>
+                  <h2 className="text-2xl font-serif font-bold text-ujo-white">Vision</h2>
                 </div>
                 <p className="text-ujo-white leading-relaxed">
-                  To create a global community where African diaspora youth excel academically, lead with confidence, maintain cultural identity, and inspire the next generation of African changemakers.
+                  To build a leading learning community that inspires lasting excellence in every student.
                 </p>
               </div>
             </div>
