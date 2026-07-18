@@ -30,12 +30,12 @@ export default function Header() {
               </div>
               <div className="text-xl font-serif font-bold">
                 <span className="text-ujo-purple">A</span>
-                <span className="text-ujo-gold">c</span>
-                <span className="text-ujo-pink">a</span>
-                <span className="text-ujo-purple">d</span>
-                <span className="text-ujo-gold">e</span>
+                <span style={{ color: '#6e23c5' }}>c</span>
+                <span style={{ color: '#e0db30' }}>a</span>
+                <span style={{ color: '#ecf100' }}>d</span>
+                <span style={{ color: '#850bf5' }}>e</span>
                 <span className="text-ujo-pink">m</span>
-                <span className="text-ujo-purple">y</span>
+                <span style={{ color: '#ec5499' }}>y</span>
               </div>
             </Link>
 
