@@ -148,26 +148,33 @@ export default function EnrollPage() {
           </div>
         </section>
 
-        {/* Step 1-3: Initial Enrollment Form */}
+        {/* Step 1-3: Initial Consultation via WhatsApp */}
         <section className="py-16 md:py-24">
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-2 text-center">
               Steps 1-3: Book Your Consultation
             </h2>
             <p className="text-center text-ujo-text-light mb-8">
-              Start by filling out this form to schedule your free consultation and initial assessment.
+              Start your journey with a free 30-minute consultation. Click the button below to chat with our team on WhatsApp and schedule your consultation today.
             </p>
 
-            <iframe
-              src="https://tally.so/embed/dW1x5y"
-              width="100%"
-              height="600"
-              frameBorder="0"
-              marginHeight={0}
-              marginWidth={0}
-              title="Consultation and Initial Enrollment Form"
-              className="rounded-lg"
-            />
+            <div className="flex justify-center mb-8">
+              <a
+                href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I'd%20like%20to%20book%20a%20free%20consultation%20for%20my%20child"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-500 hover:bg-green-600 text-white font-semibold px-12 py-4 rounded-lg transition-colors flex items-center gap-3 text-lg"
+              >
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.946 1.23c-1.524.846-2.859 2.04-3.852 3.476-.993 1.437-1.585 3.09-1.744 4.806-.159 1.716.13 3.433.95 5.009 1.62 3.12 5.082 5.241 8.927 5.241 1.35 0 2.663-.257 3.916-.76 1.253-.503 2.383-1.233 3.29-2.16.906-.927 1.608-2.026 2.064-3.255.456-1.229.669-2.544.602-3.85-.067-1.306-.357-2.582-.835-3.78-.478-1.198-1.152-2.296-2.002-3.23-.85-.934-1.878-1.696-3.03-2.24-1.152-.544-2.405-.832-3.68-.826z" />
+                </svg>
+                Chat on WhatsApp
+              </a>
+            </div>
+
+            <p className="text-center text-ujo-text-light text-sm">
+              During this consultation, we'll discuss your child's needs, learning goals, and find the perfect program fit. Our team will also provide a brief assessment and personalized recommendations.
+            </p>
           </div>
         </section>
 

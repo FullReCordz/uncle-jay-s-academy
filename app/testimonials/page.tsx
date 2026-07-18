@@ -390,9 +390,14 @@ export default function TestimonialsPage() {
             <p className="text-ujo-white mb-8 text-lg">
               Join hundreds of families achieving academic excellence and cultural pride. Let&apos;s write your child&apos;s success story.
             </p>
-            <button className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors">
+            <a
+              href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I%20loved%20the%20testimonials.%20I'd%20like%20to%20book%20a%20free%20consultation"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors inline-block"
+            >
               Book Your Free Consultation
-            </button>
+            </a>
           </div>
         </section>
       </main>

@@ -17,9 +17,14 @@ export default function HeroSection() {
               Excellence through guided learning
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-ujo-purple hover:bg-indigo-700 text-ujo-white font-semibold px-8 py-3 rounded-lg transition-colors">
+              <a
+                href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I'd%20like%20to%20book%20a%20free%20consultation"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-ujo-purple hover:bg-indigo-700 text-ujo-white font-semibold px-8 py-3 rounded-lg transition-colors text-center"
+              >
                 📅 Book a Free Consultation
-              </button>
+              </a>
               <Link
                 href="#programs"
                 className="bg-ujo-gold hover:bg-amber-500 text-ujo-text font-semibold px-8 py-3 rounded-lg transition-colors text-center"

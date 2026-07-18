@@ -346,9 +346,14 @@ export default function ProgramsPage() {
             <p className="text-ujo-white mb-8 text-lg">
               Book a free consultation to discuss which program best suits your child&apos;s needs.
             </p>
-            <button className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors">
+            <a
+              href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I'd%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20programs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors inline-block"
+            >
               Schedule Free Consultation
-            </button>
+            </a>
           </div>
         </section>
       </main>
