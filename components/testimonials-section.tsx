@@ -14,13 +14,13 @@ export default function TestimonialsSection() {
       flag: '🍁',
     },
     {
-      quote: 'Uncle Jay&apos;s personalized approach made all the difference in my son&apos;s math grades.',
+      quote: "Uncle Jay's personalized approach made all the difference in my son's math grades.",
       name: 'Mr. Okafor',
       country: 'United Kingdom',
       flag: '🇬🇧',
     },
     {
-      quote: 'Our daughter loves her lessons. She&apos;s finally confident speaking in class.',
+      quote: "Our daughter loves her lessons. She's finally confident speaking in class.",
       name: 'Mrs. Ajayi',
       country: 'USA',
       flag: '🇺🇸',

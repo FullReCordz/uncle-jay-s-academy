@@ -26,7 +26,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2">
               <div className="text-xl font-serif font-bold text-ujo-text">
-                Uncle Jay&apos;s
+                Uncle Jay's
               </div>
               <div className="text-xl font-serif font-bold">
                 <span className="text-ujo-purple">A</span>

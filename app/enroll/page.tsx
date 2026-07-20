@@ -14,7 +14,7 @@ export default function EnrollPage() {
               Enroll Your Child Today
             </h1>
             <p className="text-lg text-ujo-text-light max-w-2xl">
-              Join hundreds of students already achieving academic excellence at Uncle Jay&apos;s Academy. The enrollment process is simple and takes just a few minutes.
+              Join hundreds of students already achieving academic excellence at Uncle Jay's Academy. The enrollment process is simple and takes just a few minutes.
             </p>
           </div>
         </section>
@@ -49,7 +49,7 @@ export default function EnrollPage() {
                 {
                   step: '4',
                   title: 'Student Profile',
-                  description: 'Complete your child\'s student profile with learning preferences and goals.',
+                  description: "Complete your child's student profile with learning preferences and goals.",
                   time: 'Before first session',
                 },
               ].map((item, index) => (
@@ -85,7 +85,7 @@ export default function EnrollPage() {
                   icon: '📋',
                   title: 'Personalized Learning Plan',
                   description:
-                    'You&apos;ll receive a detailed learning plan outlining your child&apos;s goals, curriculum, and expected outcomes.',
+                    "You'll receive a detailed learning plan outlining your child's goals, curriculum, and expected outcomes.",
                   items: [
                     'Custom curriculum for your child',
                     'Clear learning milestones',
@@ -109,7 +109,7 @@ export default function EnrollPage() {
                   icon: '📊',
                   title: 'Progress Monitoring',
                   description:
-                    'Monthly progress reports keep you informed about your child&apos;s advancement and areas needing attention.',
+                    "Monthly progress reports keep you informed about your child's advancement and areas needing attention.",
                   items: [
                     'Monthly progress reports',
                     'Academic milestones tracked',
@@ -182,10 +182,10 @@ export default function EnrollPage() {
         <section className="py-16 md:py-24 bg-ujo-blue/10">
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-2 text-center">
-              Step 4: Complete Your Child&apos;s Student Profile
+              Step 4: Complete Your Child's Student Profile
             </h2>
             <p className="text-center text-ujo-text-light mb-8">
-              After your consultation, complete this form to build your child&apos;s personalized student profile and learning preferences. This ensures we tailor the best experience for your child.
+              After your consultation, complete this form to build your child's personalized student profile and learning preferences. This ensures we tailor the best experience for your child.
             </p>
 
             <iframe
@@ -205,14 +205,14 @@ export default function EnrollPage() {
         <section className="bg-ujo-blue/10 py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-12 text-center">
-              What You&apos;ll Need
+              What You'll Need
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
                   icon: '📌',
-                  title: 'Child&apos;s Information',
+                  title: "Child's Information",
                   items: ['Full name', 'Age & grade level', 'School (if applicable)', 'Subjects of interest'],
                 },
                 {
@@ -250,10 +250,10 @@ export default function EnrollPage() {
         <section className="py-16 md:py-24 bg-gradient-to-r from-ujo-purple via-ujo-gold to-ujo-pink">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-white mb-6">
-              Your Child&apos;s Success Journey Starts Now
+              Your Child's Success Journey Starts Now
             </h2>
             <p className="text-ujo-white mb-8 text-lg">
-              Don&apos;t wait! Schedule your free consultation today and take the first step toward academic excellence.
+              Don't wait! Schedule your free consultation today and take the first step toward academic excellence.
             </p>
             <button className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors">
               Book Your Free Consultation

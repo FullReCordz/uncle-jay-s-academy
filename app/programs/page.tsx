@@ -344,7 +344,7 @@ export default function ProgramsPage() {
               Find the Perfect Program for Your Child
             </h2>
             <p className="text-ujo-white mb-8 text-lg">
-              Book a free consultation to discuss which program best suits your child&apos;s needs.
+              Book a free consultation to discuss which program best suits your child's needs.
             </p>
             <a
               href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I'd%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20programs"

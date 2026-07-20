@@ -40,10 +40,10 @@ export default function TutorsPage() {
                   Uncle Jay is a dedicated tutor and educator with over nine years of experience guiding students across primary and secondary levels, in both schools and private consultancies.
                 </p>
                 <p>
-                  His teaching style blends empathy, patience, and adaptability, tailoring lessons to each learner&apos;s strengths and challenges. He nurtures both the character and knowledge of the children under his tutelage, creating a calm, supportive environment where students feel encouraged to learn and excel.
+                  His teaching style blends empathy, patience, and adaptability, tailoring lessons to each learner's strengths and challenges. He nurtures both the character and knowledge of the children under his tutelage, creating a calm, supportive environment where students feel encouraged to learn and excel.
                 </p>
                 <p>
-                  His genuine passion for helping children grow academically led to the founding of Uncle Jay&apos;s Academy in 2020, with the vision to build a leading learning community that inspires lasting excellence in every student.
+                  His genuine passion for helping children grow academically led to the founding of Uncle Jay's Academy in 2020, with the vision to build a leading learning community that inspires lasting excellence in every student.
                 </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function TutorsPage() {
       <section className="py-16 bg-gradient-to-r from-ujo-gold to-ujo-pink">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-4xl font-bold text-ujo-text mb-6">
-            Ready to meet your child&apos;s tutor?
+            Ready to meet your child's tutor?
           </h2>
           <button className="bg-ujo-purple hover:bg-indigo-700 text-ujo-white font-semibold px-10 py-4 rounded-lg text-lg transition-colors">
             Book a Trial Lesson

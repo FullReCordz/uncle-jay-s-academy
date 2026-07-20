@@ -17,7 +17,7 @@ export default function ProgramsSection() {
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl font-bold text-ujo-text mb-4">Our Programs</h2>
           <p className="text-lg text-ujo-text-light">
-            Comprehensive learning paths for every stage of your child&apos;s journey
+            Comprehensive learning paths for every stage of your child's journey
           </p>
         </div>
 

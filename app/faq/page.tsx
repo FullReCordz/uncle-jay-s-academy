@@ -242,7 +242,7 @@ export default function FAQPage() {
               Still Have Questions?
             </h2>
             <p className="text-ujo-text-light text-lg mb-8">
-              Can&apos;t find the answer you&apos;re looking for? Our team is happy to help.
+              Can't find the answer you're looking for? Our team is happy to help.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -283,7 +283,7 @@ export default function FAQPage() {
               Ready to Get Started?
             </h2>
             <p className="text-ujo-white mb-8 text-lg">
-              Book your free consultation today and let&apos;s discuss how we can help your child excel.
+              Book your free consultation today and let's discuss how we can help your child excel.
             </p>
             <a
               href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I%20have%20reviewed%20your%20FAQ%20and%20would%20like%20to%20book%20a%20free%20consultation"

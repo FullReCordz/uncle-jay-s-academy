@@ -15,7 +15,7 @@ export default function AboutPage() {
               Our Story
             </h1>
             <p className="text-lg text-ujo-text-light max-w-2xl">
-              Uncle Jay&apos;s Academy was founded with a simple yet powerful mission: to empower African children in the diaspora with world-class education while maintaining cultural connection and confidence.
+              Uncle Jay's Academy was founded with a simple yet powerful mission: to empower African children in the diaspora with world-class education while maintaining cultural connection and confidence.
             </p>
           </div>
         </section>
@@ -107,7 +107,7 @@ export default function AboutPage() {
         <section className="py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-12 text-center">
-              Why Families Choose Uncle Jay&apos;s Academy
+              Why Families Choose Uncle Jay's Academy
             </h2>
 
             <div className="space-y-6">
@@ -115,7 +115,7 @@ export default function AboutPage() {
                 {
                   number: '1',
                   title: 'Expert, Passionate Tutors',
-                  description: 'Our educators are carefully selected and trained. They are not just teachers—they are mentors who genuinely care about your child&apos;s success.',
+                  description: "Our educators are carefully selected and trained. They are not just teachers—they are mentors who genuinely care about your child's success.",
                 },
                 {
                   number: '2',
@@ -135,7 +135,7 @@ export default function AboutPage() {
                 {
                   number: '5',
                   title: 'Flexible Scheduling',
-                  description: 'Classes fit your family&apos;s busy schedule with flexible timing across multiple time zones.',
+                  description: "Classes fit your family's busy schedule with flexible timing across multiple time zones.",
                 },
                 {
                   number: '6',
@@ -188,7 +188,7 @@ export default function AboutPage() {
                   </p>
 
                   <p className="text-ujo-text-light mb-6 leading-relaxed">
-                    When he&apos;s not tutoring, Uncle Jay is developing curriculum innovations, mentoring new educators, or connecting with the global diaspora community. His vision is to create a world where African children see education as their pathway to excellence and cultural leadership.
+                    When he's not tutoring, Uncle Jay is developing curriculum innovations, mentoring new educators, or connecting with the global diaspora community. His vision is to create a world where African children see education as their pathway to excellence and cultural leadership.
                   </p>
 
                   <div className="flex gap-4">

@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="font-serif font-bold text-lg text-ujo-text mb-4">
-              Uncle Jay&apos;s Academy
+              Uncle Jay's Academy
             </h3>
             <p className="text-ujo-text-light text-sm">
               Excellence through guided learning
@@ -105,7 +105,7 @@ export default function Footer() {
 
         <div className="border-t border-ujo-blue-dark pt-8">
           <p className="text-center text-sm text-ujo-text-light">
-            © 2024 Uncle Jay&apos;s Academy. All rights reserved. Excellence through guided learning.
+            © 2024 Uncle Jay's Academy. All rights reserved. Excellence through guided learning.
           </p>
         </div>
       </div>

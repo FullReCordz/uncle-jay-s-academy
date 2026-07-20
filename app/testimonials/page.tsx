@@ -154,7 +154,7 @@ export default function TestimonialsPage() {
               Success Stories
             </h1>
             <p className="text-lg text-ujo-text-light max-w-2xl">
-              Hear from parents and students who have experienced the Uncle Jay&apos;s Academy difference. Real stories from real families achieving real results.
+              Hear from parents and students who have experienced the Uncle Jay's Academy difference. Real stories from real families achieving real results.
             </p>
           </div>
         </section>
@@ -365,7 +365,7 @@ export default function TestimonialsPage() {
               Share Your Story
             </h2>
             <p className="text-center text-ujo-text-light mb-8">
-              Had a great experience with UJA? We&apos;d love to hear about it. Submit your testimonial below and inspire other families.
+              Had a great experience with UJA? We'd love to hear about it. Submit your testimonial below and inspire other families.
             </p>
 
             <iframe
@@ -385,10 +385,10 @@ export default function TestimonialsPage() {
         <section className="py-16 md:py-24 bg-gradient-to-r from-ujo-purple via-ujo-gold to-ujo-pink">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-white mb-6">
-              Your Child&apos;s Success Story Starts Here
+              Your Child's Success Story Starts Here
             </h2>
             <p className="text-ujo-white mb-8 text-lg">
-              Join hundreds of families achieving academic excellence and cultural pride. Let&apos;s write your child&apos;s success story.
+              Join hundreds of families achieving academic excellence and cultural pride. Let's write your child's success story.
             </p>
             <a
               href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I%20loved%20the%20testimonials.%20I'd%20like%20to%20book%20a%20free%20consultation"
