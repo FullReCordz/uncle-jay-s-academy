@@ -1,6 +1,7 @@
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
+import { WHATSAPP_URL, WHATSAPP_CONSULTATION_QUESTIONS_URL } from '@/lib/constants'
 
 export default function ContactPage() {
 
@@ -67,7 +68,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="font-semibold text-ujo-text mb-2">WhatsApp</h3>
                 <a
-                  href="https://wa.me/2349058324190"
+                  href={WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-ujo-text-light hover:text-green-600 transition-colors"
@@ -185,7 +186,7 @@ export default function ContactPage() {
               Reach out today and let's discuss how Uncle Jay's Academy can help your child succeed.
             </p>
             <a
-              href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I%20have%20questions%20and%20would%20like%20to%20book%20a%20free%20consultation"
+              href={WHATSAPP_CONSULTATION_QUESTIONS_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors inline-block"

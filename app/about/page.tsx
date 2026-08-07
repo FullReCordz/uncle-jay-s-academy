@@ -2,6 +2,7 @@
 
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import { WHATSAPP_CONSULTATION_URL } from '@/lib/constants'
 
 export default function AboutPage() {
   return (
@@ -221,7 +222,7 @@ export default function AboutPage() {
               Book a free consultation with Uncle Jay and discover how we can help your child excel academically while celebrating their heritage.
             </p>
             <a
-              href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I'd%20like%20to%20book%20a%20free%20consultation%20for%20my%20child"
+              href={WHATSAPP_CONSULTATION_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors inline-block"

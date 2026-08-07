@@ -4,11 +4,11 @@ export default function ProgramsSection() {
   const programs = [
     { name: 'Early Years', emoji: '🎨', color: 'from-pink-100 to-pink-50' },
     { name: 'Primary School', emoji: '📖', color: 'from-blue-100 to-blue-50' },
-    { name: 'Junior Secondary', emoji: '🔬', color: 'from-purple-100 to-purple-50' },
+    { name: 'Junior Secondary', emoji: '🔬', color: 'from-green-100 to-green-50' },
     { name: 'Senior Secondary', emoji: '🎓', color: 'from-yellow-100 to-yellow-50' },
-    { name: 'Homework Support', emoji: '✏️', color: 'from-green-100 to-green-50' },
+    { name: 'Homework Support', emoji: '✏️', color: 'from-cyan-100 to-cyan-50' },
     { name: 'Exam Preparation', emoji: '📝', color: 'from-red-100 to-red-50' },
-    { name: 'Public Speaking', emoji: '🎤', color: 'from-orange-100 to-orange-50' },
+    { name: 'Ethics & Etiquette', emoji: '🤝', color: 'from-orange-100 to-orange-50' },
   ]
 
   return (
@@ -35,7 +35,7 @@ export default function ProgramsSection() {
 
         <div className="text-center">
           <Link
-            href="#"
+            href="/programs"
             className="inline-block bg-ujo-purple hover:bg-indigo-700 text-ujo-white font-semibold px-10 py-3 rounded-lg transition-colors"
           >
             View All Programs

@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
+import { WHATSAPP_CONSULTATION_URL, WHATSAPP_URL } from '@/lib/constants'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -66,9 +67,14 @@ export default function Header() {
                 </div>
               </div>
 
-              <button className="bg-ujo-blue hover:bg-ujo-blue-dark text-ujo-text font-medium px-6 py-2 rounded-lg transition-colors">
+              <a
+                href={WHATSAPP_CONSULTATION_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-ujo-blue hover:bg-ujo-blue-dark text-ujo-text font-medium px-6 py-2 rounded-lg transition-colors"
+              >
                 Book a Free Consultation
-              </button>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -109,9 +115,14 @@ export default function Header() {
                   ))}
                 </div>
               )}
-              <button className="w-full mt-4 bg-ujo-blue hover:bg-ujo-blue-dark text-ujo-text font-medium px-6 py-2 rounded-lg transition-colors">
+              <a
+                href={WHATSAPP_CONSULTATION_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full mt-4 bg-ujo-blue hover:bg-ujo-blue-dark text-ujo-text font-medium px-6 py-2 rounded-lg transition-colors text-center"
+              >
                 Book a Free Consultation
-              </button>
+              </a>
             </div>
           )}
         </nav>
@@ -119,7 +130,7 @@ export default function Header() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/2349058324190"
+        href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-30 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-transform hover:scale-110"

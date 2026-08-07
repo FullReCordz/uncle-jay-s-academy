@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { WHATSAPP_CONSULTATION_URL } from '@/lib/constants'
 
 export default function HeroSection() {
   return (
@@ -18,7 +19,7 @@ export default function HeroSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I'd%20like%20to%20book%20a%20free%20consultation"
+                href={WHATSAPP_CONSULTATION_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-ujo-purple hover:bg-indigo-700 text-ujo-white font-semibold px-8 py-3 rounded-lg transition-colors text-center"

@@ -2,6 +2,7 @@
 
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import { WHATSAPP_CONSULTATION_PROGRAMS_URL } from '@/lib/constants'
 
 const programs = [
   {
@@ -70,6 +71,7 @@ const programs = [
     icon: '✏️',
     description: 'Daily homework help and assignment support',
     subjects: ['All Subjects', 'Assignment Guidance', 'Project Support', 'Exam Prep'],
+    subjectLabel: 'Support Offered',
     outcomes: [
       'Complete homework confidently',
       'Improve assignment quality',
@@ -93,9 +95,10 @@ const programs = [
       'JAMB',
       'SAT',
       'IGCSE',
-      'IB',
+      'IELTS',
       'A-Levels',
     ],
+    subjectLabel: 'Exams',
     outcomes: [
       'Achieve target grades',
       'Build exam confidence',
@@ -109,25 +112,26 @@ const programs = [
     ],
   },
   {
-    name: 'Public Speaking & Confidence',
+    name: 'Ethics & Etiquette',
     color: 'from-purple-400 to-fuchsia-400',
-    icon: '🎤',
-    description: 'Develop communication skills and self-confidence',
+    icon: '🤝',
+    description: 'Developing respectful communication, confidence, leadership and character.',
     subjects: [
-      'Public Speaking',
-      'Presentation Skills',
-      'Communication',
+      'Respectful Communication',
+      'Confidence',
       'Leadership',
+      'Character Building',
     ],
+    subjectLabel: 'Subjects Offered',
     outcomes: [
-      'Overcome speaking anxiety',
-      'Deliver powerful presentations',
-      'Build leadership presence',
-      'Improve communication',
+      'Develop respectful communication',
+      'Build confidence and character',
+      'Cultivate leadership skills',
+      'Strengthen social etiquette',
     ],
     highlights: [
       'Practical practice sessions',
-      'Confidence coaching',
+      'Character coaching',
       'Real-world scenarios',
     ],
   },
@@ -141,7 +145,13 @@ const programs = [
       'Sciences',
       'Languages',
       'Coding',
+      'Architectural Design',
+      'Economics',
+      'Ethics & Etiquette',
+      'Food & Nutrition',
+      'Home Management',
     ],
+    subjectLabel: 'Subjects Offered',
     outcomes: [
       'Master difficult concepts',
       'Improve grades significantly',
@@ -199,7 +209,7 @@ export default function ProgramsPage() {
                     {/* Subjects */}
                     <div className="mb-6">
                       <h4 className="text-sm font-semibold text-ujo-text mb-3">
-                        Subjects Offered:
+                        {(program as { subjectLabel?: string }).subjectLabel ?? 'Subjects Offered'}:
                       </h4>
                       <div className="flex flex-wrap gap-2">
                         {program.subjects.map((subject, i) => (
@@ -294,11 +304,11 @@ export default function ProgramsPage() {
           </div>
         </section>
 
-        {/* Flexible Options */}
+        {/* Flexible Learning */}
         <section className="py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-12 text-center">
-              Flexible Learning Options
+              Flexible Learning
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -310,15 +320,15 @@ export default function ProgramsPage() {
                   icon: '👨‍🏫',
                 },
                 {
-                  title: 'Small Group Classes',
+                  title: 'Collaborative Learning & Games',
                   description:
-                    'Collaborative learning in small groups (2-4 students) with peer interaction',
+                    'Interactive group learning with teamwork, educational games, and engaging activities that make learning fun',
                   icon: '👥',
                 },
                 {
                   title: 'Flexible Scheduling',
                   description:
-                    'Sessions available across all time zones with flexible booking options',
+                    'Sessions available across all time zones with flexible booking',
                   icon: '⏰',
                 },
               ].map((option, index) => (
@@ -347,12 +357,12 @@ export default function ProgramsPage() {
               Book a free consultation to discuss which program best suits your child's needs.
             </p>
             <a
-              href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I'd%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20programs"
+              href={WHATSAPP_CONSULTATION_PROGRAMS_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors inline-block"
             >
-              Schedule Free Consultation
+              Book Free Consultation
             </a>
           </div>
         </section>

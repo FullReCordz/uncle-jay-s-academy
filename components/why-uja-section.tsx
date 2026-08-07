@@ -1,24 +1,28 @@
 export default function WhyUJASection() {
   const benefits = [
     {
-      icon: '🧠',
-      title: 'Academic Excellence',
-      description: 'Personalized lessons tailored to each learner.',
-    },
-    {
-      icon: '🌍',
-      title: 'Global Learners, African Roots',
-      description: 'Supporting diaspora families while celebrating identity.',
-    },
-    {
-      icon: '✨',
-      title: 'Confidence Building',
-      description: 'Helping children speak up, think critically, and believe in themselves.',
+      icon: '⏰',
+      title: 'Flexible Scheduling',
+      description:
+        "Classes fit your family's schedule with flexible learning times across different time zones.",
     },
     {
       icon: '👩‍🏫',
-      title: 'Dedicated Tutors',
-      description: 'Passionate educators who mentor as much as they teach.',
+      title: 'Expert Passionate Tutors',
+      description:
+        "Experienced educators who genuinely care about every child's academic success.",
+    },
+    {
+      icon: '🎯',
+      title: 'Personalized Learning',
+      description:
+        'Every learner receives a customized learning experience tailored to their strengths and goals.',
+    },
+    {
+      icon: '🤝',
+      title: 'Safe Supportive Environment',
+      description:
+        'Students learn in a calm, encouraging environment that builds confidence.',
     },
   ]
 
@@ -26,7 +30,9 @@ export default function WhyUJASection() {
     <section className="py-20 bg-ujo-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="font-serif text-4xl font-bold text-ujo-text mb-4">Why Uncle Jay's Academy?</h2>
+          <h2 className="font-serif text-4xl font-bold text-ujo-text mb-4">
+            Why Families Choose Uncle Jay's Academy
+          </h2>
           <p className="text-lg text-ujo-text-light">
             We believe every child deserves excellence, confidence, and cultural connection
           </p>
