@@ -43,6 +43,7 @@ export default function TutorsPage() {
                   His teaching style blends empathy, patience, and adaptability, tailoring lessons to each learner&apos;s strengths and challenges. He nurtures both the character and knowledge of the children under his tutelage, creating a calm, supportive environment where students feel encouraged to learn and excel.
                 </p>
                 <p>
+                  When he&apos;s not tutoring, Uncle Jay is developing curriculum innovations, mentoring new educators, or connecting with the global diaspora community. His vision is to create a world where African children see education as their pathway to excellence and cultural leadership.
                   His genuine passion for helping children grow academically led to the founding of Uncle Jay&apos;s Academy in 2020, with the vision to build a leading learning community that inspires lasting excellence in every student.
                 </p>
               </div>
