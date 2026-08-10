@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import TutorProfile from '@/components/tutor-profile'
@@ -15,40 +14,6 @@ export default function TutorsPage() {
           <p className="text-lg text-ujo-text-light font-sans">
             Passionate educators who mentor as much as they teach
           </p>
-        </div>
-      </section>
-
-      {/* About Uncle Jay */}
-      <section className="py-16 bg-ujo-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-96 md:h-full rounded-2xl overflow-hidden shadow-lg">
-              <Image
-                src="/tutors/babajide-oduga.png"
-                alt="Babajide Oduga - Uncle Jay"
-                fill
-                className="object-cover"
-                priority
-              />
-            </div>
-            <div>
-              <h2 className="font-serif text-4xl font-bold text-ujo-text mb-6">
-                About Uncle Jay
-              </h2>
-              <div className="space-y-4 text-ujo-text-light font-sans">
-                <p>
-                  Uncle Jay is a dedicated tutor and educator with over nine years of experience guiding students across primary and secondary levels, in both schools and private consultancies.
-                </p>
-                <p>
-                  His teaching style blends empathy, patience, and adaptability, tailoring lessons to each learner&apos;s strengths and challenges. He nurtures both the character and knowledge of the children under his tutelage, creating a calm, supportive environment where students feel encouraged to learn and excel.
-                </p>
-                <p>
-                  When he&apos;s not tutoring, Uncle Jay is developing curriculum innovations, mentoring new educators, or connecting with the global diaspora community. His vision is to create a world where African children see education as their pathway to excellence and cultural leadership.
-                  His genuine passion for helping children grow academically led to the founding of Uncle Jay&apos;s Academy in 2020, with the vision to build a leading learning community that inspires lasting excellence in every student.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
