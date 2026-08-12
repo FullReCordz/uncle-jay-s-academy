@@ -83,32 +83,6 @@ const programs = [
     ],
   },
   {
-    name: 'Exam Preparation',
-    color: 'from-red-400 to-rose-400',
-    icon: '🏆',
-    description: 'Targeted prep for major exams and assessments',
-    subjects: [
-      'WAEC',
-      'NECO',
-      'JAMB',
-      'SAT',
-      'IGCSE',
-      'IELTS',
-      'A-Levels',
-    ],
-    outcomes: [
-      'Achieve target grades',
-      'Build exam confidence',
-      'Master test strategies',
-      'Score competitively',
-    ],
-    highlights: [
-      'Past exam papers',
-      'Timed practice tests',
-      'Personalized weak areas focus',
-    ],
-  },
-  {
     name: 'Public Speaking & Confidence',
     color: 'from-purple-400 to-fuchsia-400',
     icon: '🎤',
@@ -196,6 +170,17 @@ export default function ProgramsPage() {
                       {program.description}
                     </p>
 
+                    {(program.name.startsWith('Primary Level') || program.name.startsWith('Secondary Level')) && (
+                      <div className="mb-6">
+                        <Link
+                          href="#"
+                          className="block w-full bg-ujo-blue hover:bg-ujo-blue-dark text-ujo-text text-center font-semibold px-4 py-2 rounded-md transition-colors"
+                        >
+                          More
+                        </Link>
+                      </div>
+                    )}
+
                     {/* Subjects */}
                     <div className="mb-6">
                       <h4 className="text-sm font-semibold text-ujo-text mb-3">
@@ -274,7 +259,7 @@ export default function ProgramsPage() {
                 {
                   number: '3',
                   title: 'Customized Plan',
-                  description: 'We create a tailored learning plan with specific goals and timelines.',
+                  description: 'We create a tailored learning plan with specific goals.',
                 },
                 {
                   number: '4',

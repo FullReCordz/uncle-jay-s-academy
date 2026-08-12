@@ -1,18 +1,12 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Merriweather, Poppins } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import './globals.css'
 
-const merriweather = Merriweather({
+const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: ['400', '700', '900'],
-  variable: '--font-serif',
-})
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-sans',
+  weight: ['400', '500', '600', '700', '800', '900'],
+  variable: '--font-montserrat',
 })
 
 export const metadata: Metadata = {
@@ -50,7 +44,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${merriweather.variable} ${poppins.variable}`}>
+    <html lang="en" className={montserrat.variable}>
       <body className="antialiased bg-ujo-bg text-ujo-text">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}

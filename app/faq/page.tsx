@@ -132,7 +132,7 @@ const faqCategories = [
       },
       {
         q: 'How is progress tracked?',
-        a: 'We provide monthly progress reports, track academic milestones, and conduct quarterly parent-tutor meetings. Regular feedback keeps everyone informed.',
+        a: 'We track academic milestones and provide monthly progress updates to parents. Regular feedback keeps everyone informed.',
       },
       {
         q: 'Can tutoring help with confidence?',
@@ -157,7 +157,7 @@ const faqCategories = [
       },
       {
         q: 'How can I stay involved in my child\'s learning?',
-        a: 'We encourage parent involvement! You can review lesson recordings, practice with your child, and work with our tutors to reinforce learning at home.',
+        a: 'We encourage parent involvement! You can review lesson notes, practice with your child, and work with our tutors to reinforce learning at home.',
       },
       {
         q: 'What if I have concerns about progress?',
