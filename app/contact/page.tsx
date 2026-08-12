@@ -85,9 +85,9 @@ export default function ContactPage() {
                 </div>
                 <h3 className="font-semibold text-ujo-text mb-2">Office Hours</h3>
                 <p className="text-sm text-ujo-text-light">
-                  Mon-Fri: 8AM - 8PM <br />
-                  Sat: 10AM - 6PM <br />
-                  Sun: 2PM - 6PM 
+                  Mon–Fri: 8AM–8PM <br />
+                  Sat: 10AM–6PM <br />
+                  Sun: 2PM–6PM
                 </p>
               </div>
             </div>
@@ -133,10 +133,6 @@ export default function ContactPage() {
                     {
                       q: 'How often should my child have lessons?',
                       a: 'This depends on your goals. We typically recommend 2-4 sessions per week, but we customize the frequency based on your child&apos;s needs.',
-                    },
-                    {
-                      q: 'Do you offer group classes?',
-                      a: 'Yes! We offer both one-on-one tutoring and small group classes (2-4 students) depending on your preference.',
                     },
                     {
                       q: 'What if I have more questions?',

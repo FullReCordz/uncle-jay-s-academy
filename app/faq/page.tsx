@@ -17,10 +17,7 @@ const faqCategories = [
         q: 'Who is Uncle Jay?',
         a: 'Uncle Jay (Babajide Oduga) is our founder and lead tutor with over 9 years of experience in online tutoring. He\'s passionate about empowering African youth and helping them succeed academically.',
       },
-      {
-        q: 'Where are you located?',
-        a: 'We operate globally and serve students across 12+ countries. All lessons are conducted online via video conferencing, making us accessible from anywhere in the world.',
-      },
+
       {
         q: 'Is the academy accredited?',
         a: 'Our tutoring complements formal schooling and prepares students for international exams. We follow global curriculum standards and prepare students for WAEC, NECO, JAMB, SAT, IGCSE, IELTS, and A-Levels.',
@@ -147,10 +144,6 @@ const faqCategories = [
   {
     title: 'Parents & Communication',
     items: [
-      {
-        q: 'How often do parents get updates?',
-        a: 'You receive monthly progress reports, weekly feedback updates, and have direct access to your tutor for questions. Quarterly meetings are also scheduled.',
-      },
       {
         q: 'Can parents observe lessons?',
         a: 'Yes, parents can observe lessons if desired. Many parents choose to sit in occasionally to see their child in action.',
