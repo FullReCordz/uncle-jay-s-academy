@@ -40,7 +40,7 @@ const faqCategories = [
       },
       {
         q: 'How long are the lessons?',
-        a: 'Standard lessons are 60 minutes, though we can arrange 45-minute or 90-minute sessions based on your preference. Trial lessons are typically 30 minutes.',
+        a: 'Standard lessons are 60 minutes, though we can arrange 45-minute or 90-minute sessions based on your preference. Trial lessons are 15 minutes.',
       },
       {
         q: 'How often should my child have lessons?',
@@ -65,7 +65,7 @@ const faqCategories = [
       },
       {
         q: 'What payment methods do you accept?',
-        a: 'We accept various payment methods including bank transfers, online payment platforms, and other convenient options. Details will be provided during enrollment.',
+        a: 'We accept online payment and or bank transfer to the designated official account. Details will be provided during enrollment.',
       },
       {
         q: 'Is there a cancellation or refund policy?',
@@ -78,7 +78,7 @@ const faqCategories = [
     items: [
       {
         q: 'What time zones do you cover?',
-        a: 'We serve students across multiple time zones from Europe to Asia. Our scheduling is flexible to accommodate different regions. Office hours are typically 3PM-9PM WAT, with weekend options available.',
+        a: 'We serve students across multiple time zones from Europe to Asia. Our scheduling is flexible to accommodate different regions.',
       },
       {
         q: 'What technology do we use for lessons?',
@@ -92,12 +92,8 @@ const faqCategories = [
         q: 'Can I reschedule a lesson?',
         a: 'Yes! We offer flexible rescheduling. We ask for 24 hours notice when possible, but we\'re usually accommodating for unexpected circumstances.',
       },
-      {
-        q: 'Are lessons recorded?',
-        a: 'Yes, with your permission, lessons can be recorded for reference. This helps students review content and parents stay informed about progress.',
-      },
     ],
-  },
+},
   {
     title: 'Enrollment & Getting Started',
     items: [
