@@ -8,28 +8,22 @@ export default function TestimonialsSection() {
 
   const testimonials = [
     {
-      quote: 'My daughter now volunteers answers in school. UJA transformed her confidence.',
-      name: 'Mrs. Adeyemi',
-      country: 'Canada',
-      flag: '🍁',
+      quote: 'J.A did amazing in maths in his exams this term. Ah, God bless you people oh. Nothing like seeing amazing report cards',
+      name: 'Mrs Barbara',
+      country: 'Saudi Arabia',
+      flag: '🇸🇦',
     },
     {
-      quote: 'Uncle Jay&apos;s personalized approach made all the difference in my son&apos;s math grades.',
-      name: 'Mr. Okafor',
+      quote: "Good morning! Just wanted to say a huge thanks for the great impact you've had on my boys maths. He totally exceeded his target this term!",
+      name: 'Mrs Ngejuru',
       country: 'United Kingdom',
       flag: '🇬🇧',
     },
     {
-      quote: 'Our daughter loves her lessons. She&apos;s finally confident speaking in class.',
-      name: 'Mrs. Ajayi',
-      country: 'USA',
-      flag: '🇺🇸',
-    },
-    {
-      quote: 'The tutors genuinely care about their students. Worth every penny!',
-      name: 'Mr. Obi',
-      country: 'Australia',
-      flag: '🇦🇺',
+      quote: 'My son is now working above target in Maths. Thank you so much Uncle Jay',
+      name: 'Mrs Asoso',
+      country: 'United Kingdom',
+      flag: '🇬🇧',
     },
   ]
 

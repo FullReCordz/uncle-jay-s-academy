@@ -7,135 +7,36 @@ import { Star } from 'lucide-react'
 const testimonials = [
   {
     type: 'parent',
-    name: 'Ameena Hassan',
-    location: 'London, UK',
-    image: '👩‍🦱',
-    title: 'Parent of Zain (Age 13)',
-    rating: 5,
-    quote:
-      'Uncle Jay has been transformative for my son. Not only has his Math grades improved from a C to an A, but he\'s also gained so much confidence. The personalized approach and cultural awareness make a real difference.',
-    impact: '35% grade improvement',
-  },
-  {
-    type: 'student',
-    name: 'Zainab Okafor',
-    location: 'Toronto, Canada',
-    image: '👧',
-    title: 'Secondary Student (Age 15)',
-    rating: 5,
-    quote:
-      'I used to dread English lessons, but Uncle Jay made it fun and actually interesting! He explains things in a way that makes sense, and he celebrates every win. Now I\'m excited for my lessons.',
-    impact: 'Confidence boost',
-  },
-  {
-    type: 'parent',
-    name: 'Dr. Kwame Mensah',
-    location: 'New York, USA',
-    image: '👨‍💼',
-    title: 'Parent of Ama & Kofi (Ages 10 & 8)',
-    rating: 5,
-    quote:
-      'As a busy parent working in healthcare, finding quality tutoring was challenging. Uncle Jay\'s Academy is reliable, flexible, and truly invested in my children\'s success. They look forward to every session.',
-    impact: 'Both children excelling',
-  },
-  {
-    type: 'student',
-    name: 'Chisom Ezeoke',
-    location: 'Lagos, Nigeria',
-    image: '👦',
-    title: 'Secondary Student (Age 16)',
-    rating: 5,
-    quote:
-      'The JAMB prep with Uncle Jay gave me strategies I actually use. His focus on understanding rather than just memorizing made my score jump by 150 points. Highly recommend!',
-    impact: '150+ point JAMB increase',
-  },
-  {
-    type: 'parent',
-    name: 'Nadia Diallo',
-    location: 'Berlin, Germany',
+    name: 'Mrs Barbara',
+    location: 'Saudi Arabia',
     image: '👩',
-    title: 'Parent of Aïssatou (Age 12)',
+    title: 'Parent',
     rating: 5,
     quote:
-      'My daughter struggled with homesickness and school anxiety. Uncle Jay didn\'t just tutor her—he became a mentor and mentor figure who truly understands the diaspora experience. She\'s thriving now.',
-    impact: 'Emotional resilience',
+      'J.A did amazing in maths in his exams this term. Ah, God bless you people oh. Nothing like seeing amazing report cards',
+    impact: 'Amazing report cards',
   },
   {
     type: 'parent',
-    name: 'Ahmed Ibrahim',
-    location: 'Dubai, UAE',
-    image: '👨',
-    title: 'Parent of Leah (Age 9)',
-    rating: 5,
-    quote:
-      'The curriculum is rigorous but adapted to my daughter\'s learning pace. Regular progress updates keep me informed, and Uncle Jay genuinely cares about her development beyond academics.',
-    impact: 'Top of class placement',
-  },
-  {
-    type: 'student',
-    name: 'Kobi Johnson',
-    location: 'Atlanta, USA',
-    image: '👦',
-    title: 'Primary Student (Age 7)',
-    rating: 5,
-    quote:
-      'Uncle Jay makes learning so fun! I didn\'t like reading before, but now I\'m reading books and actually enjoying them. My teacher says I\'ve improved so much!',
-    impact: 'Love of reading',
-  },
-  {
-    type: 'parent',
-    name: 'Amina Khan',
-    location: 'Manchester, UK',
+    name: 'Mrs Ngejuru',
+    location: 'United Kingdom',
     image: '👩',
-    title: 'Parent of Jamal (Age 17)',
+    title: 'Parent',
     rating: 5,
     quote:
-      'A-Level prep felt overwhelming for my son, but Uncle Jay broke everything down into manageable chunks. His structured approach and encouragement helped him secure an A* in Mathematics.',
-    impact: 'A* grade achieved',
-  },
-  {
-    type: 'student',
-    name: 'Precious Osei',
-    location: 'Cape Town, South Africa',
-    image: '👧',
-    title: 'Secondary Student (Age 14)',
-    rating: 5,
-    quote:
-      'Public speaking used to terrify me, but Uncle Jay\'s coaching gave me tools to manage anxiety. Now I present confidently in class and actually enjoy it. This changed my life!',
-    impact: 'Speaking confidence',
+      "Good morning! Just wanted to say a huge thanks for the great impact you've had on my boys maths. He totally exceeded his target this term!",
+    impact: 'Exceeded his target',
   },
   {
     type: 'parent',
-    name: 'Marcus Thompson',
-    location: 'Washington DC, USA',
-    image: '👨‍🦱',
-    title: 'Parent of Trinity (Age 11)',
-    rating: 5,
-    quote:
-      'As an African parent living abroad, I wanted my daughter to stay connected to her roots. Uncle Jay integrates culture beautifully into education. She\'s proud of her heritage and excelling academically.',
-    impact: 'Cultural pride',
-  },
-  {
-    type: 'student',
-    name: 'Tunde Adeyemi',
-    location: 'Houston, USA',
-    image: '👦',
-    title: 'Primary Student (Age 9)',
-    rating: 5,
-    quote:
-      'I used to struggle with homework and felt really behind. Now I understand everything better and finish my work without stress. Uncle Jay is the best teacher ever!',
-    impact: 'Homework confidence',
-  },
-  {
-    type: 'parent',
-    name: 'Fatima Al-Rashid',
-    location: 'Paris, France',
+    name: 'Mrs Asoso',
+    location: 'United Kingdom',
     image: '👩',
-    title: 'Parent of Amira (Age 13)',
+    title: 'Parent',
     rating: 5,
     quote:
-      'Finding quality tutoring for both academics and cultural connection was impossible—until Uncle Jay\'s Academy. My daughter is thriving, and I finally feel supported as an African parent abroad.',
-    impact: 'Holistic development',
+      'My son is now working above target in Maths. Thank you so much Uncle Jay',
+    impact: 'Working above target',
   },
 ]
 
@@ -164,7 +65,7 @@ export default function TestimonialsPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
-                <div className="text-4xl font-serif font-bold text-ujo-white mb-2">250+</div>
+                <div className="text-4xl font-serif font-bold text-ujo-white mb-2">1000+</div>
                 <div className="text-ujo-white">Students Mentored</div>
               </div>
               <div>
