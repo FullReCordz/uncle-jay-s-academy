@@ -93,7 +93,7 @@ const programs = [
       'JAMB',
       'SAT',
       'IGCSE',
-      'IB',
+      'IELTS',
       'A-Levels',
     ],
     outcomes: [

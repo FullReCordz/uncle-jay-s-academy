@@ -23,7 +23,7 @@ const faqCategories = [
       },
       {
         q: 'Is the academy accredited?',
-        a: 'Our tutoring complements formal schooling and prepares students for international exams. We follow global curriculum standards and prepare students for WAEC, NECO, JAMB, SAT, IGCSE, IB, and A-Levels.',
+        a: 'Our tutoring complements formal schooling and prepares students for international exams. We follow global curriculum standards and prepare students for WAEC, NECO, JAMB, SAT, IGCSE, IELTS, and A-Levels.',
       },
     ],
   },
@@ -128,7 +128,7 @@ const faqCategories = [
     items: [
       {
         q: 'Can you help with exam preparation?',
-        a: 'Absolutely! We specialize in exam prep for WAEC, NECO, JAMB, SAT, IGCSE, IB, and A-Levels. We provide focused strategies, past papers, and practice tests.',
+        a: 'Absolutely! We specialize in exam prep for WAEC, NECO, JAMB, SAT, IGCSE, IELTS, and A-Levels. We provide focused strategies, past papers, and practice tests.',
       },
       {
         q: 'What if my child is falling behind?',
