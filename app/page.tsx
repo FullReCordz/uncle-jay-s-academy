@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Header from '@/components/header'
 import HeroSection from '@/components/hero-section'
+import FounderSection from '@/components/founder-section'
 import WhyUJASection from '@/components/why-uja-section'
 import StatsSection from '@/components/stats-section'
 import TestimonialsSection from '@/components/testimonials-section'
@@ -13,6 +14,7 @@ export default function Home() {
     <main>
       <Header />
       <HeroSection />
+      <FounderSection />
       <WhyUJASection />
       <StatsSection />
 

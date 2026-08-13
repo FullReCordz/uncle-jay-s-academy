@@ -1,6 +1,7 @@
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
+import { WHATSAPP_URL, WHATSAPP_CONSULTATION_QUESTIONS_URL } from '@/lib/constants'
 
 export default function ContactPage() {
 
@@ -15,7 +16,7 @@ export default function ContactPage() {
               Get in Touch
             </h1>
             <p className="text-lg text-ujo-text-light max-w-2xl">
-              Have questions about our programs? Want to schedule a consultation? We&apos;re here to help and would love to hear from you.
+              Have questions about our programs? Want to schedule a consultation? We're here to help and would love to hear from you.
             </p>
           </div>
         </section>
@@ -67,7 +68,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="font-semibold text-ujo-text mb-2">WhatsApp</h3>
                 <a
-                  href="https://wa.me/2349058324190"
+                  href={WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-ujo-text-light hover:text-green-600 transition-colors"
@@ -120,7 +121,7 @@ export default function ContactPage() {
                   {[
                     {
                       q: 'What is the first step to get started?',
-                      a: 'Simply contact us via email, phone, or WhatsApp to schedule a free consultation. Our team will discuss your child&apos;s needs and recommend the best program.',
+                      a: "Simply contact us via email, phone, or WhatsApp to schedule a free consultation. Our team will discuss your child's needs and recommend the best program.",
                     },
                     {
                       q: 'Are there trial lessons available?',
@@ -132,7 +133,7 @@ export default function ContactPage() {
                     },
                     {
                       q: 'How often should my child have lessons?',
-                      a: 'This depends on your goals. We typically recommend 2-4 sessions per week, but we customize the frequency based on your child&apos;s needs.',
+                      a: "This depends on your goals. We typically recommend 2-4 sessions per week, but we customize the frequency based on your child's needs.",
                     },
                     {
                       q: 'What if I have more questions?',
@@ -178,10 +179,10 @@ export default function ContactPage() {
               Ready to Start Your Journey?
             </h2>
             <p className="text-ujo-white mb-8 text-lg">
-              Reach out today and let&apos;s discuss how Uncle Jay&apos;s Academy can help your child succeed.
+              Reach out today and let's discuss how Uncle Jay's Academy can help your child succeed.
             </p>
             <a
-              href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I%20have%20questions%20and%20would%20like%20to%20book%20a%20free%20consultation"
+              href={WHATSAPP_CONSULTATION_QUESTIONS_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors inline-block"

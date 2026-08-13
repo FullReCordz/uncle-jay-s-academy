@@ -1,6 +1,7 @@
 import Header from '@/components/header'
 import Footer from '@/components/footer'
-import { CheckCircle, Calendar, Users, BookOpen } from 'lucide-react'
+import { CircleCheck as CheckCircle } from 'lucide-react'
+import { WHATSAPP_CONSULTATION_URL } from '@/lib/constants'
 
 export default function EnrollPage() {
   return (
@@ -14,7 +15,7 @@ export default function EnrollPage() {
               Enroll Your Child Today
             </h1>
             <p className="text-lg text-ujo-text-light max-w-2xl">
-              Join hundreds of students already achieving academic excellence at Uncle Jay&apos;s Academy. The enrollment process is simple and takes just a few minutes.
+              Join hundreds of students already achieving academic excellence at Uncle Jay's Academy. The enrollment process is simple and takes just a few minutes.
             </p>
           </div>
         </section>
@@ -31,7 +32,7 @@ export default function EnrollPage() {
                 {
                   step: '1',
                   title: 'Free Consultation',
-                  description: 'Schedule a 30-minute free consultation with Uncle Jay or one of our tutors.',
+                  description: 'Schedule a FREE 30-minute consultation with Uncle Jay or one of our tutors.',
                   time: '30 minutes',
                 },
                 {
@@ -49,7 +50,7 @@ export default function EnrollPage() {
                 {
                   step: '4',
                   title: 'Student Profile',
-                  description: 'Complete your child\'s student profile with learning preferences and goals.',
+                  description: "Complete your child's student profile with learning preferences and goals.",
                   time: 'Before first session',
                 },
               ].map((item, index) => (
@@ -85,11 +86,10 @@ export default function EnrollPage() {
                   icon: '📋',
                   title: 'Personalized Learning Plan',
                   description:
-                    'You&apos;ll receive a detailed learning plan outlining your child&apos;s goals, curriculum, and expected outcomes.',
+                    "You'll receive a detailed learning plan outlining your child's goals, curriculum, and outcomes.",
                   items: [
                     'Custom curriculum for your child',
                     'Clear learning milestones',
-                    'Expected timeline',
                     'Performance benchmarks',
                   ],
                 },
@@ -102,19 +102,17 @@ export default function EnrollPage() {
                     'Consistent tutor assignment',
                     'Flexible scheduling options',
                     'Reminder notifications',
-                    'Session recordings available',
                   ],
                 },
                 {
                   icon: '📊',
                   title: 'Progress Monitoring',
                   description:
-                    'Monthly progress reports keep you informed about your child&apos;s advancement and areas needing attention.',
+                    "Monthly progress reports keep you informed about your child's advancement and areas needing attention.",
                   items: [
                     'Monthly progress reports',
                     'Academic milestones tracked',
                     'Strength & growth areas identified',
-                    'Quarterly parent-tutor meetings',
                   ],
                 },
                 {
@@ -124,7 +122,6 @@ export default function EnrollPage() {
                     'Open communication between parents, tutors, and students ensures everyone stays aligned on progress and goals.',
                   items: [
                     'Quick response to questions',
-                    'Direct tutor access',
                     'Weekly feedback updates',
                     'Flexible adjustments to plan',
                   ],
@@ -160,7 +157,7 @@ export default function EnrollPage() {
 
             <div className="flex justify-center mb-8">
               <a
-                href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay's%20Academy,%20I'd%20like%20to%20book%20a%20free%20consultation%20for%20my%20child"
+                href={WHATSAPP_CONSULTATION_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 hover:bg-green-600 text-white font-semibold px-12 py-4 rounded-lg transition-colors flex items-center gap-3 text-lg"
@@ -182,10 +179,10 @@ export default function EnrollPage() {
         <section className="py-16 md:py-24 bg-ujo-blue/10">
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-2 text-center">
-              Step 4: Complete Your Child&apos;s Student Profile
+              Step 4: Complete Your Child's Student Profile
             </h2>
             <p className="text-center text-ujo-text-light mb-8">
-              After your consultation, complete this form to build your child&apos;s personalized student profile and learning preferences. This ensures we tailor the best experience for your child.
+              After your consultation, complete this form to build your child's personalized student profile and learning preferences. This ensures we tailor the best experience for your child.
             </p>
 
             <iframe
@@ -201,63 +198,23 @@ export default function EnrollPage() {
           </div>
         </section>
 
-        {/* Enrollment Requirements */}
-        <section className="bg-ujo-blue/10 py-16 md:py-24">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-text mb-12 text-center">
-              What You&apos;ll Need
-            </h2>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              {[
-                {
-                  icon: '📌',
-                  title: 'Child&apos;s Information',
-                  items: ['Full name', 'Age & grade level', 'School (if applicable)', 'Subjects of interest'],
-                },
-                {
-                  icon: '👨‍👩‍👧',
-                  title: 'Parent/Guardian Details',
-                  items: ['Full name', 'Email address', 'Phone number', 'Preferred contact method'],
-                },
-                {
-                  icon: '⏰',
-                  title: 'Availability',
-                  items: ['Your time zone', 'Preferred days & times', 'Number of sessions per week', 'Session duration'],
-                },
-              ].map((item, index) => (
-                <div
-                  key={index}
-                  className="bg-ujo-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow"
-                >
-                  <div className="text-4xl mb-4">{item.icon}</div>
-                  <h3 className="text-lg font-semibold text-ujo-text mb-4">{item.title}</h3>
-                  <ul className="space-y-2">
-                    {item.items.map((subitem, i) => (
-                      <li key={i} className="flex gap-2 text-sm text-ujo-text-light">
-                        <CheckCircle className="w-4 h-4 text-ujo-purple flex-shrink-0 mt-0.5" />
-                        <span>{subitem}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* CTA */}
         <section className="py-16 md:py-24 bg-gradient-to-r from-ujo-purple via-ujo-gold to-ujo-pink">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-ujo-white mb-6">
-              Your Child&apos;s Success Journey Starts Now
+              Your Child's Success Journey Starts Now
             </h2>
             <p className="text-ujo-white mb-8 text-lg">
-              Don&apos;t wait! Schedule your free consultation today and take the first step toward academic excellence.
+              Don't wait! Schedule your free consultation today and take the first step toward academic excellence.
             </p>
-            <button className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors">
+            <a
+              href={WHATSAPP_CONSULTATION_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors inline-block"
+            >
               Book Your Free Consultation
-            </button>
+            </a>
           </div>
         </section>
       </main>
