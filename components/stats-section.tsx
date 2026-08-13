@@ -6,7 +6,7 @@ export default function StatsSection() {
   const [counts, setCounts] = useState({ lessons: 0, confidence: 0, grades: 0, countries: 0 })
 
   useEffect(() => {
-    const targets = { lessons: 250, confidence: 95, grades: 90, countries: 12 }
+    const targets = { lessons: 1000, confidence: 95, grades: 90, countries: 12 }
     const duration = 2000
     const steps = 60
     const stepDuration = duration / steps

@@ -18,13 +18,10 @@ const faqCategories = [
         q: 'Who is Uncle Jay?',
         a: 'Uncle Jay (Babajide Oduga) is our founder and lead tutor with over 9 years of experience in online tutoring. He\'s passionate about empowering African youth and helping them succeed academically.',
       },
-      {
-        q: 'Where are you located?',
-        a: 'We operate globally and serve students across 12+ countries. All lessons are conducted online via video conferencing, making us accessible from anywhere in the world.',
-      },
+
       {
         q: 'Is the academy accredited?',
-        a: 'Our tutoring complements formal schooling and prepares students for international exams. We follow global curriculum standards and prepare students for WAEC, NECO, JAMB, SAT, IGCSE, IB, and A-Levels.',
+        a: 'Our tutoring complements formal schooling and prepares students for international exams. We follow global curriculum standards and prepare students for WAEC, NECO, JAMB, SAT, IGCSE, IELTS, and A-Levels.',
       },
     ],
   },
@@ -41,7 +38,7 @@ const faqCategories = [
       },
       {
         q: 'How long are the lessons?',
-        a: 'Standard lessons are 60 minutes, though we can arrange 45-minute or 90-minute sessions based on your preference. Trial lessons are typically 30 minutes.',
+        a: 'Standard lessons are 60 minutes, though we can arrange 45-minute or 90-minute sessions based on your preference. Trial lessons are 15 minutes.',
       },
       {
         q: 'How often should my child have lessons?',
@@ -66,7 +63,7 @@ const faqCategories = [
       },
       {
         q: 'What payment methods do you accept?',
-        a: 'We accept various payment methods including bank transfers, online payment platforms, and other convenient options. Details will be provided during enrollment.',
+        a: 'We accept online payment and or bank transfer to the designated official account. Details will be provided during enrollment.',
       },
       {
         q: 'Is there a cancellation or refund policy?',
@@ -79,7 +76,7 @@ const faqCategories = [
     items: [
       {
         q: 'What time zones do you cover?',
-        a: 'We serve students across multiple time zones from Europe to Asia. Our scheduling is flexible to accommodate different regions. Office hours are typically 3PM-9PM WAT, with weekend options available.',
+        a: 'We serve students across multiple time zones from Europe to Asia. Our scheduling is flexible to accommodate different regions.',
       },
       {
         q: 'What technology do we use for lessons?',
@@ -93,12 +90,8 @@ const faqCategories = [
         q: 'Can I reschedule a lesson?',
         a: 'Yes! We offer flexible rescheduling. We ask for 24 hours notice when possible, but we\'re usually accommodating for unexpected circumstances.',
       },
-      {
-        q: 'Are lessons recorded?',
-        a: 'Yes, with your permission, lessons can be recorded for reference. This helps students review content and parents stay informed about progress.',
-      },
     ],
-  },
+},
   {
     title: 'Enrollment & Getting Started',
     items: [
@@ -129,7 +122,7 @@ const faqCategories = [
     items: [
       {
         q: 'Can you help with exam preparation?',
-        a: 'Absolutely! We specialize in exam prep for WAEC, NECO, JAMB, SAT, IGCSE, IB, and A-Levels. We provide focused strategies, past papers, and practice tests.',
+        a: 'Absolutely! We specialize in exam prep for WAEC, NECO, JAMB, SAT, IGCSE, IELTS, and A-Levels. We provide focused strategies, past papers, and practice tests.',
       },
       {
         q: 'What if my child is falling behind?',
@@ -137,7 +130,7 @@ const faqCategories = [
       },
       {
         q: 'How is progress tracked?',
-        a: 'We provide monthly progress reports, track academic milestones, and conduct quarterly parent-tutor meetings. Regular feedback keeps everyone informed.',
+        a: 'We track academic milestones and provide monthly progress updates to parents. Regular feedback keeps everyone informed.',
       },
       {
         q: 'Can tutoring help with confidence?',
@@ -153,16 +146,12 @@ const faqCategories = [
     title: 'Parents & Communication',
     items: [
       {
-        q: 'How often do parents get updates?',
-        a: 'You receive monthly progress reports, weekly feedback updates, and have direct access to your tutor for questions. Quarterly meetings are also scheduled.',
-      },
-      {
         q: 'Can parents observe lessons?',
         a: 'Yes, parents can observe lessons if desired. Many parents choose to sit in occasionally to see their child in action.',
       },
       {
         q: 'How can I stay involved in my child\'s learning?',
-        a: 'We encourage parent involvement! You can review lesson recordings, practice with your child, and work with our tutors to reinforce learning at home.',
+        a: 'We encourage parent involvement! You can review lesson notes, practice with your child, and work with our tutors to reinforce learning at home.',
       },
       {
         q: 'What if I have concerns about progress?',

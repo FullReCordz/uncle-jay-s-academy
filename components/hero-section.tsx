@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { WHATSAPP_CONSULTATION_URL } from '@/lib/constants'
 
@@ -41,8 +42,14 @@ export default function HeroSection() {
           {/* Illustration */}
           <div className="order-1 md:order-2">
             <div className="bg-ujo-white rounded-2xl shadow-2xl p-8 relative">
-              <div className="aspect-square bg-gradient-to-br from-ujo-purple/20 to-ujo-gold/20 rounded-xl flex items-center justify-center">
-                <div className="text-6xl">📚</div>
+              <div className="aspect-square bg-gradient-to-br from-ujo-purple/20 to-ujo-gold/20 rounded-xl flex items-center justify-center relative overflow-hidden">
+                <Image
+                  src="/academy-entrance.jpeg"
+                  alt="Children standing outside Uncle Jay's Academy"
+                  fill
+                  className="object-cover rounded-xl"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               </div>
               <div className="mt-6 space-y-3">
                 <div className="h-2 bg-ujo-blue rounded-full"></div>

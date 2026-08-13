@@ -194,7 +194,7 @@ export default function AboutPage() {
 
                   <div className="flex gap-4">
                     <div className="flex-1">
-                      <div className="text-3xl font-serif font-bold text-ujo-purple">250+</div>
+                      <div className="text-3xl font-serif font-bold text-ujo-purple">1000+</div>
                       <div className="text-sm text-ujo-text-light">Students Mentored</div>
                     </div>
                     <div className="flex-1">
