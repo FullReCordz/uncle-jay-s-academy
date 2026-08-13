@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { WHATSAPP_CONSULTATION_URL } from '@/lib/constants'
 import { BookOpen, Heart, Target, Compass } from 'lucide-react'
 
@@ -18,12 +19,15 @@ export default function FounderSection() {
           <div className="grid md:grid-cols-5 gap-0">
             {/* Portrait */}
             <div className="md:col-span-2 bg-gradient-to-br from-ujo-purple/10 to-ujo-gold/10 flex items-center justify-center p-12">
-              <div className="relative w-64 h-80 md:w-72 md:h-96 rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-ujo-purple to-ujo-pink flex items-center justify-center">
-                <div className="text-center text-ujo-white">
-                  <div className="text-7xl mb-4">👨‍🏫</div>
-                  <p className="font-serif font-bold text-2xl">Uncle Jay</p>
-                  <p className="text-sm opacity-80 mt-1">Babajide Oduga</p>
-                </div>
+              <div className="relative w-64 h-80 md:w-72 md:h-96 rounded-2xl overflow-hidden shadow-2xl bg-ujo-blue">
+                <Image
+                  src="/tutors/uncle-jay-founder.png"
+                  alt="Babajide Oduga, founder of Uncle Jay's Academy"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 256px, 288px"
+                  className="object-cover"
+                />
               </div>
             </div>
 
@@ -38,7 +42,7 @@ export default function FounderSection() {
 
               {/* Biography */}
               <p className="text-ujo-text-light leading-relaxed mb-6">
-                Babajide Oduga, affectionately known as Uncle Jay, is a passionate educator with over 9 years of experience in online tutoring and student mentorship. His journey began with a simple desire to help African children excel academically while staying connected to their cultural roots.
+                Babajide Oduga, affectionately known as Uncle Jay, is a passionate educator with over 9 years of experience in online tutoring and student mentorship. His journey began with a simple desire to help African children excel academically while staying connected to their cultural roots.His genuine passion for helping children grow academically led to the founding of Uncle Jay's Academy in 2020, with the vision to build a leading learning community that inspires lasting excellence in every student.
               </p>
 
               {/* Philosophy */}
@@ -68,7 +72,7 @@ export default function FounderSection() {
               <div className="grid grid-cols-3 gap-4 mb-8">
                 <div className="text-center bg-ujo-blue/20 rounded-xl p-4">
                   <Target className="w-6 h-6 text-ujo-purple mx-auto mb-2" />
-                  <div className="text-2xl font-serif font-bold text-ujo-purple">250+</div>
+                  <div className="text-2xl font-serif font-bold text-ujo-purple">1000+</div>
                   <div className="text-xs text-ujo-text-light">Students Mentored</div>
                 </div>
                 <div className="text-center bg-ujo-blue/20 rounded-xl p-4">

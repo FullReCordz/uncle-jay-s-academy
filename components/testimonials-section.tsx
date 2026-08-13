@@ -8,12 +8,6 @@ export default function TestimonialsSection() {
 
   const testimonials = [
     {
-      quote: 'My daughter now volunteers answers in school. UJA transformed her confidence.',
-      name: 'Mrs. Adeyemi',
-      country: 'Canada',
-      flag: '🍁',
-    },
-    {
       quote: "Uncle Jay's personalized approach made all the difference in my son's math grades.",
       name: 'Mr. Okafor',
       country: 'United Kingdom',
@@ -30,6 +24,18 @@ export default function TestimonialsSection() {
       name: 'Mr. Obi',
       country: 'Australia',
       flag: '🇦🇺',
+    },
+    {
+      quote: 'Uncle Jay pushed me to go beyond my limit when I was preparing for my Loyola common entrance and for that I am truly grateful',
+      name: 'Peter',
+      country: 'Nigeria',
+      flag: '🇳🇬',
+    },
+    {
+      quote: "Uncle Jay and his team prepped Lila for her 11+ exams and I was really impressed with my daughter's result and overall improvement in school. A big thank you to the team",
+      name: 'Mr Deji',
+      country: 'Canada',
+      flag: '🇨🇦',
     },
   ]
 

@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useState } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
@@ -25,19 +26,16 @@ export default function Header() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2">
-              <div className="text-xl font-serif font-bold text-ujo-text">
-                Uncle Jay's
-              </div>
-              <div className="text-xl font-serif font-bold">
-                <span className="text-ujo-purple">A</span>
-                <span style={{ color: '#6e23c5' }}>c</span>
-                <span style={{ color: '#e0db30' }}>a</span>
-                <span style={{ color: '#ecf100' }}>d</span>
-                <span style={{ color: '#850bf5' }}>e</span>
-                <span className="text-ujo-pink">m</span>
-                <span style={{ color: '#ec5499' }}>y</span>
-              </div>
+            <Link href="/" className="flex items-center" aria-label="Uncle Jay's Academy home">
+              <Image
+                src="/uja-logo.png"
+                alt="Uncle Jay's Academy"
+                width={150}
+                height={64}
+                priority
+                sizes="150px"
+                className="h-12 w-auto object-contain"
+              />
             </Link>
 
             {/* Desktop Menu */}
