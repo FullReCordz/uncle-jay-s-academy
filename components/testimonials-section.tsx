@@ -31,6 +31,18 @@ export default function TestimonialsSection() {
       country: 'Australia',
       flag: '🇦🇺',
     },
+    {
+      quote: 'Uncle Jay pushed me to go beyond my limit when I was preparing for my Loyola common entrance and for that I am truly grateful',
+      name: 'Peter',
+      country: 'Nigeria',
+      flag: '🇳🇬',
+    },
+    {
+      quote: "Uncle Jay and his team prepped Lila for her 11+ exams and I was really impressed with my daughter's result and overall improvement in school. A big thank you to the team",
+      name: 'Mr Deji',
+      country: 'Canada',
+      flag: '🇨🇦',
+    },
   ]
 
   const next = () => {

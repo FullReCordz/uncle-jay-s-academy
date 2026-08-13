@@ -39,6 +39,28 @@ const testimonials = [
       'My son is now working above target in Maths. Thank you so much Uncle Jay',
     impact: 'Working above target',
   },
+  {
+    type: 'parent',
+    name: 'Peter',
+    location: 'Nigeria',
+    image: '👨',
+    title: 'Parent',
+    rating: 5,
+    quote:
+      'Uncle Jay pushed me to go beyond my limit when I was preparing for my Loyola common entrance and for that I am truly grateful',
+    impact: 'Loyola common entrance preparation',
+  },
+  {
+    type: 'parent',
+    name: 'Mr Deji',
+    location: 'Canada',
+    image: '👨',
+    title: 'Parent',
+    rating: 5,
+    quote:
+      "Uncle Jay and his team prepped Lila for her 11+ exams and I was really impressed with my daughter's result and overall improvement in school. A big thank you to the team",
+    impact: '11+ exam preparation',
+  },
 ]
 
 export default function TestimonialsPage() {
