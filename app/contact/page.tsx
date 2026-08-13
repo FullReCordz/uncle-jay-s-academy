@@ -16,7 +16,7 @@ export default function ContactPage() {
             </h1>
 
             <p className="text-lg text-ujo-text-light max-w-2xl">
-              Have questions about our programs? Want to schedule a consultation? We&apos;re here to help and would love to hear from you.
+              Have questions about our programs? Want to schedule a consultation? Were here to help and would love to hear from you.
             </p>
           </div>
         </section>

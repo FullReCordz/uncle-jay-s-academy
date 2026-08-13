@@ -38,7 +38,7 @@ export default function FounderSection() {
 
               {/* Biography */}
               <p className="text-ujo-text-light leading-relaxed mb-6">
-                Babajide Oduga, affectionately known as Uncle Jay, is a passionate educator with over 9 years of experience in online tutoring and student mentorship. His journey began with a simple desire to help African children excel academically while staying connected to their cultural roots.
+                Babajide Oduga, affectionately known as Uncle Jay, is a passionate educator with over 9 years of experience in online tutoring and student mentorship. His journey began with a simple desire to help African children excel academically while staying connected to their cultural roots.His genuine passion for helping children grow academically led to the founding of Uncle Jay's Academy in 2020, with the vision to build a leading learning community that inspires lasting excellence in every student.
               </p>
 
               {/* Philosophy */}
@@ -68,7 +68,7 @@ export default function FounderSection() {
               <div className="grid grid-cols-3 gap-4 mb-8">
                 <div className="text-center bg-ujo-blue/20 rounded-xl p-4">
                   <Target className="w-6 h-6 text-ujo-purple mx-auto mb-2" />
-                  <div className="text-2xl font-serif font-bold text-ujo-purple">250+</div>
+                  <div className="text-2xl font-serif font-bold text-ujo-purple">1000+</div>
                   <div className="text-xs text-ujo-text-light">Students Mentored</div>
                 </div>
                 <div className="text-center bg-ujo-blue/20 rounded-xl p-4">
