@@ -8,12 +8,6 @@ export default function TestimonialsSection() {
 
   const testimonials = [
     {
-      quote: 'My daughter now volunteers answers in school. UJA transformed her confidence.',
-      name: 'Mrs. Adeyemi',
-      country: 'Canada',
-      flag: '🍁',
-    },
-    {
       quote: "Uncle Jay's personalized approach made all the difference in my son's math grades.",
       name: 'Mr. Okafor',
       country: 'United Kingdom',
