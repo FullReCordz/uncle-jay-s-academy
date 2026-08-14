@@ -3,8 +3,8 @@
 @import 'shadcn/tailwind.css';
 
 @theme {
-  --font-sans: 'Montserrat', sans-serif;
-  --font-serif: 'Montserrat', sans-serif;
+  --font-sans: var(--font-montserrat), 'Montserrat', sans-serif;
+  --font-serif: var(--font-montserrat), 'Montserrat', sans-serif;
   --color-ujo-bg: #f8fafb;
   --color-ujo-blue: #C9D6E8;
   --color-ujo-blue-dark: #a8b8d0;

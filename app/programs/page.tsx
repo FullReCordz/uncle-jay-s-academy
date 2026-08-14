@@ -29,6 +29,7 @@ const programs = [
     icon: '📚',
     description: 'Build strong academic foundations across all subjects',
     subjects: ['Mathematics', 'English', 'Science', 'Social Studies', 'Creative Arts'],
+    showMore: true,
     outcomes: [
       'Excel in core academic subjects',
       'Develop critical thinking',
@@ -53,6 +54,7 @@ const programs = [
       'History & Geography',
       'Languages',
     ],
+    showMore: true,
     outcomes: [
       'Achieve top grades',
       'Prepare for standardized exams',
@@ -70,7 +72,7 @@ const programs = [
     color: 'from-blue-400 to-cyan-400',
     icon: '✏️',
     description: 'Daily homework help and assignment support',
-    subjects: ['All Subjects', 'Assignment Guidance', 'Project Support', 'Exam Prep'],
+    subjects: ['All Subjects', 'Assignment Guidance', 'Project Support'],
     subjectLabel: 'Support Offered',
     outcomes: [
       'Complete homework confidently',
@@ -220,6 +222,13 @@ export default function ProgramsPage() {
                             {subject}
                           </span>
                         ))}
+                        {(program as { showMore?: boolean }).showMore && (
+                          <span
+                            className="inline-block bg-ujo-blue-dark text-ujo-white text-xs font-semibold px-3 py-1 rounded-full"
+                          >
+                            More
+                          </span>
+                        )}
                       </div>
                     </div>
 
@@ -284,7 +293,7 @@ export default function ProgramsPage() {
                 {
                   number: '3',
                   title: 'Customized Plan',
-                  description: 'We create a tailored learning plan with specific goals and timelines.',
+                  description: 'We create a tailored learning plan with specific goals.',
                 },
                 {
                   number: '4',
