@@ -24,7 +24,7 @@ export default function Header() {
     <>
       <header className="sticky top-0 z-40 bg-ujo-white border-b border-gray-200">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-32">
+          <div className="flex justify-between items-center h-24">
             {/* Logo */}
             <Link href="/" className="flex items-center" aria-label="Uncle Jay's Academy home">
               <Image
@@ -34,7 +34,7 @@ export default function Header() {
                 height={263}
                 priority
                 sizes="615px"
-                className="h-48 w-auto object-contain"
+                className="h-20 w-auto object-contain"
               />
             </Link>
 
