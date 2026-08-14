@@ -30,11 +30,11 @@ export default function Header() {
               <Image
                 src="/uja-logo.png"
                 alt="Uncle Jay's Academy"
-                width={150}
-                height={64}
+                width={180}
+                height={77}
                 priority
-                sizes="150px"
-                className="h-12 w-auto object-contain"
+                sizes="180px"
+                className="h-14 w-auto object-contain"
               />
             </Link>
 

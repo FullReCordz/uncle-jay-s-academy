@@ -42,7 +42,7 @@ export default function FounderSection() {
 
               {/* Biography */}
               <p className="text-ujo-text-light leading-relaxed mb-6">
-                Babajide Oduga, affectionately known as Uncle Jay, is a passionate educator with over 9 years of experience in online tutoring and student mentorship. His journey began with a simple desire to help African children excel academically while staying connected to their cultural roots.His genuine passion for helping children grow academically led to the founding of Uncle Jay's Academy in 2020, with the vision to build a leading learning community that inspires lasting excellence in every student.
+                Babajide Oduga, affectionately known as Uncle Jay, is a passionate educator with over 9 years of experience in online tutoring and student mentorship. His journey began with a simple desire to help African children excel academically while staying connected to their cultural roots.
               </p>
 
               {/* Philosophy */}
