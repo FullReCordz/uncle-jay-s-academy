@@ -39,7 +39,7 @@ export default function StatsSection() {
 
         <div className="grid md:grid-cols-4 gap-8">
           <div className="text-center">
-            <div className="text-5xl font-serif font-bold mb-2">{counts.lessons}+</div>
+            <div className="text-4xl md:text-5xl font-serif font-bold mb-2 whitespace-nowrap">{counts.lessons}+</div>
             <p className="text-purple-100">Lessons Delivered</p>
           </div>
           <div className="text-center">
