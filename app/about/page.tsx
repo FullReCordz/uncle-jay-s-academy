@@ -16,7 +16,7 @@ export default function AboutPage() {
               Our Story
             </h1>
             <p className="text-lg text-ujo-text-light max-w-2xl">
-              Uncle Jay's Academy was founded with a simple yet powerful mission: to empower African children in the diaspora with world-class education while maintaining cultural connection and confidence.
+              Uncle Jay's Academy is an education platform focused on empowering African children in the diaspora through culturally grounded, personalized tutoring.
             </p>
           </div>
         </section>

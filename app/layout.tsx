@@ -12,7 +12,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Uncle Jay's Academy | Excellence Through Guided Learning",
   description:
-    "Personalized virtual tutoring for African children in the diaspora. Build confidence, excel academically, and stay connected to cultural roots.",
+    "Uncle Jay's Academy is an education platform focused on empowering African children in the diaspora through culturally grounded, personalized tutoring.",
   generator: 'v0.app',
   icons: {
     icon: [

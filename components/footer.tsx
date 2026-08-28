@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { Mail, Phone } from 'lucide-react'
 
 export default function Footer() {
@@ -10,9 +11,14 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="font-serif font-bold text-lg text-ujo-text mb-4">
-              Uncle Jay's Academy
-            </h3>
+            <Image
+              src="/uja-logo.png"
+              alt="Uncle Jay's Academy"
+              width={180}
+              height={80}
+              sizes="180px"
+              className="h-16 w-auto object-contain object-left mb-4"
+            />
             <p className="text-ujo-text-light text-sm">
               Excellence through guided learning
             </p>
