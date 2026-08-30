@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { WHATSAPP_CONSULTATION_URL } from '@/lib/constants'
@@ -170,8 +171,14 @@ export default function AboutPage() {
             <div className="bg-ujo-white rounded-2xl p-8 md:p-12 shadow-sm">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
-                  <div className="w-full bg-gradient-to-br from-ujo-purple to-ujo-pink rounded-xl h-64 md:h-80 flex items-center justify-center text-6xl">
-                    👨‍🏫
+                  <div className="relative w-full bg-gradient-to-br from-ujo-purple to-ujo-pink rounded-xl h-64 md:h-80 overflow-hidden">
+                    <Image
+                      src="/uncle-jay-story.png"
+                      alt="Uncle Jay in traditional attire"
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-cover"
+                    />
                   </div>
                 </div>
 
