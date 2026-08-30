@@ -79,14 +79,14 @@ export default function TestimonialsSection() {
 
           <button
             onClick={prev}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 bg-ujo-purple hover:bg-indigo-700 text-ujo-white p-3 rounded-full transition-colors"
+            className="absolute left-0 top-1/2 -translate-y-1/2 md:-translate-x-16 bg-ujo-purple hover:bg-indigo-700 text-ujo-white p-3 rounded-full transition-colors"
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
 
           <button
             onClick={next}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 bg-ujo-purple hover:bg-indigo-700 text-ujo-white p-3 rounded-full transition-colors"
+            className="absolute right-0 top-1/2 -translate-y-1/2 md:translate-x-16 bg-ujo-purple hover:bg-indigo-700 text-ujo-white p-3 rounded-full transition-colors"
           >
             <ChevronRight className="w-6 h-6" />
           </button>
