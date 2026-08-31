@@ -171,13 +171,13 @@ export default function AboutPage() {
             <div className="bg-ujo-white rounded-2xl p-8 md:p-12 shadow-sm">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
-                  <div className="relative w-full bg-gradient-to-br from-ujo-purple to-ujo-pink rounded-xl h-64 md:h-80 overflow-hidden">
+                  <div className="relative w-full bg-gradient-to-br from-ujo-purple to-ujo-pink rounded-xl aspect-[2/3] md:aspect-[3/4] overflow-hidden">
                     <Image
                       src="/uncle-jay-story.png"
                       alt="Uncle Jay in traditional attire"
                       fill
                       sizes="(max-width: 768px) 100vw, 50vw"
-                      className="object-cover"
+                      className="object-contain"
                     />
                   </div>
                 </div>
