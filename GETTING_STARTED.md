@@ -269,7 +269,7 @@ The website is tested and works on:
 For technical assistance:
 - Email: unclejaysacademy@gmail.com
 - Phone: +234 905-832-4190
-- WhatsApp: https://wa.me/2349058324190
+- WhatsApp: https://wa.me/2348031659857
 
 ---
 
