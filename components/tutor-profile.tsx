@@ -1,4 +1,3 @@
-import { ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 
 interface TutorProfileProps {
@@ -42,10 +41,6 @@ export default function TutorProfile({
             <p className="text-ujo-text-light text-lg leading-relaxed mb-8 font-sans">
               {bio}
             </p>
-            <div className="flex items-center text-ujo-purple font-semibold">
-              <span>Learn More</span>
-              <ChevronRight className="w-5 h-5 ml-2" />
-            </div>
           </div>
         </div>
       </div>

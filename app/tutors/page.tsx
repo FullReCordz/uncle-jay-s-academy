@@ -20,9 +20,16 @@ export default function TutorsPage() {
       {/* Tutor Profiles */}
       <TutorProfile
         name="Babajide Oduga"
-        role="Uncle Jay – Mathematics"
+        role="Mathematics"
         image="/tutors/babajide-oduga.png"
         bio="Math tutor extraordinaire. An adaptable and fun educator with years of teaching and tutoring experience. Demonstrates strong communication, empathy, and a passion that enables him to connect with learners of diverse abilities and backgrounds. Driven by patience, professionalism, and a genuine passion for student growth."
+      />
+
+      <TutorProfile
+        name="Deborah Adesile"
+        role="English"
+        image="/tutors/deborah-adesile.png"
+        bio="An English educator with over 10 years of experience teaching learners from preschool through advanced exams like SAT and IELTS. Her philosophy is simple: 'every student can thrive when learning is personal, practical, and inspiring.' She creates lessons that build fluency, confidence, and mastery, forming strong personal connections with every student to help them unlock their strengths."
       />
 
       <TutorProfile
@@ -49,13 +56,6 @@ export default function TutorsPage() {
         role="Architectural Design"
         reversed
         bio=""
-      />
-
-      <TutorProfile
-        name="Deborah Adesile"
-        role="Miss Queen – English"
-        image="/tutors/deborah-adesile.png"
-        bio="An English educator with over 10 years of experience teaching learners from preschool through advanced exams like SAT and IELTS. Her philosophy is simple: 'every student can thrive when learning is personal, practical, and inspiring.' She creates lessons that build fluency, confidence, and mastery, forming strong personal connections with every student to help them unlock their strengths."
       />
 
       {/* CTA Section */}
