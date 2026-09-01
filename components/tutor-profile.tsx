@@ -5,7 +5,7 @@ interface TutorProfileProps {
   name: string
   role: string
   bio: string
-  image: string
+  image?: string
   reversed?: boolean
 }
 
@@ -23,13 +23,15 @@ export default function TutorProfile({
           {/* Image */}
           <div className={reversed ? 'md:order-2' : ''}>
             <div className="relative h-96 md:h-full rounded-2xl overflow-hidden shadow-lg">
-              <Image
-                src={image}
-                alt={name}
-                fill
-                className="object-cover"
-                priority
-              />
+              {image ? (
+                <Image
+                  src={image}
+                  alt={name}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              ) : null}
             </div>
           </div>
 
