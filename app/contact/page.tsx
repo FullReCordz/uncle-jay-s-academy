@@ -80,7 +80,7 @@ export default function ContactPage() {
                 </h3>
 
                 <a
-                  href="https://wa.me/2349058324190"
+                  href="https://wa.me/2348031659857"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-ujo-text-light hover:text-green-600 transition-colors"
@@ -218,7 +218,7 @@ export default function ContactPage() {
             </p>
 
             <a
-              href="https://wa.me/2349058324190?text=Hi%20Uncle%20Jay%27s%20Academy,%20I%20have%20questions%20and%20would%20like%20to%20book%20a%20free%20consultation"
+              href="https://wa.me/2348031659857?text=Hi%20Uncle%20Jay%27s%20Academy,%20I%20have%20questions%20and%20would%20like%20to%20book%20a%20free%20consultation"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-ujo-white text-ujo-purple hover:bg-ujo-blue font-semibold px-8 py-3 rounded-lg transition-colors inline-block"

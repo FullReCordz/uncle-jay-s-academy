@@ -1,4 +1,4 @@
-export const WHATSAPP_URL = "https://wa.me/2349058324190";
+export const WHATSAPP_URL = "https://wa.me/2348031659857";
 
 export const LINKEDIN_URL = "https://www.linkedin.com/company/uncle-jays-academy";
 
