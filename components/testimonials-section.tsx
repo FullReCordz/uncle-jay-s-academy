@@ -9,7 +9,7 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        'J.A did amazing in maths in his exams this term. Ah, God bless you people oh. Nothing like seeing amazing report cards',
+        'J.A did exceptionally well in his maths exam this term. Ah, God bless you people, oh. Nothing like seeing amazing report cards.',
       name: 'Mrs Barbara',
       country: 'Saudi Arabia',
       flag: '🇸🇦',
@@ -28,7 +28,7 @@ export default function TestimonialsSection() {
       flag: '🇬🇧',
     },
     {
-      quote: 'Uncle Jay pushed me to go beyond my limit when I was preparing for my Loyola common entrance and for that I am truly grateful',
+      quote: 'Uncle Jay encouraged and helped me push beyond my limits when I was preparing for my Loyola common entrance. It worked, and for that I am truly grateful.',
       name: 'Peter',
       country: 'Nigeria',
       flag: '🇳🇬',
