@@ -10,7 +10,7 @@ export default function TutorsPage() {
       {/* Page Header */}
       <section className="py-16 bg-gradient-to-r from-ujo-blue to-ujo-blue-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="font-serif text-5xl font-bold text-ujo-text mb-4">Meet Your Tutors</h1>
+          <h1 className="font-serif text-5xl font-bold text-ujo-text mb-4">Meet Our Lead Tutors</h1>
           <p className="text-lg text-ujo-text-light font-sans">
             Passionate educators who mentor as much as they teach
           </p>
@@ -20,24 +20,42 @@ export default function TutorsPage() {
       {/* Tutor Profiles */}
       <TutorProfile
         name="Babajide Oduga"
-        role="Uncle Jay – Mathematics"
+        role="Mathematics"
         image="/tutors/babajide-oduga.png"
         bio="Math tutor extraordinaire. An adaptable and fun educator with years of teaching and tutoring experience. Demonstrates strong communication, empathy, and a passion that enables him to connect with learners of diverse abilities and backgrounds. Driven by patience, professionalism, and a genuine passion for student growth."
       />
 
       <TutorProfile
-        name="Abigeal Ogunlaja"
-        role="Miss Abby – Mathematics"
-        image="/tutors/abigeal-ogunlaja.png"
-        reversed
-        bio="A First-Class final-year Mathematics student with a strong passion for teaching and academic excellence. Has years of experience tutoring younger learners, helping them build a clear understanding of mathematical concepts. Her goal is to make mathematics simple, logical, and engaging while fostering confidence and a genuine interest in the subject."
+        name="Deborah Adesile"
+        role="English"
+        image="/tutors/deborah-adesile.png"
+        bio="An English educator with over 10 years of experience teaching learners from preschool through advanced exams like SAT and IELTS. Her philosophy is simple: 'every student can thrive when learning is personal, practical, and inspiring.' She creates lessons that build fluency, confidence, and mastery, forming strong personal connections with every student to help them unlock their strengths."
       />
 
       <TutorProfile
-        name="Deborah Adesile"
-        role="Miss Queen – English"
-        image="/tutors/deborah-adesile.png"
-        bio="An English educator with over 10 years of experience teaching learners from preschool through advanced exams like SAT and IELTS. Her philosophy is simple: 'every student can thrive when learning is personal, practical, and inspiring.' She creates lessons that build fluency, confidence, and mastery, forming strong personal connections with every student to help them unlock their strengths."
+        name="Faleti Iretioluwa"
+        role="Sciences"
+        bio="Mr. Ireti is a seasoned Physics and Chemistry teacher with nearly 14 years of experience. He believes that digital technology is an effective medium for facilitating learning and is passionate about the teaching and learning process."
+      />
+
+      <TutorProfile
+        name="Akinyemi Paul"
+        role="Arts"
+        reversed
+        bio=""
+      />
+
+      <TutorProfile
+        name="David Ajayi"
+        role="Information & Technology"
+        bio=""
+      />
+
+      <TutorProfile
+        name="Ajose Deji"
+        role="Architectural Design"
+        reversed
+        bio=""
       />
 
       {/* CTA Section */}

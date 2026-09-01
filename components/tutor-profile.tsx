@@ -1,11 +1,10 @@
-import { ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 
 interface TutorProfileProps {
   name: string
   role: string
   bio: string
-  image: string
+  image?: string
   reversed?: boolean
 }
 
@@ -23,13 +22,15 @@ export default function TutorProfile({
           {/* Image */}
           <div className={reversed ? 'md:order-2' : ''}>
             <div className="relative h-96 md:h-full rounded-2xl overflow-hidden shadow-lg">
-              <Image
-                src={image}
-                alt={name}
-                fill
-                className="object-cover"
-                priority
-              />
+              {image ? (
+                <Image
+                  src={image}
+                  alt={name}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              ) : null}
             </div>
           </div>
 
@@ -40,10 +41,6 @@ export default function TutorProfile({
             <p className="text-ujo-text-light text-lg leading-relaxed mb-8 font-sans">
               {bio}
             </p>
-            <div className="flex items-center text-ujo-purple font-semibold">
-              <span>Learn More</span>
-              <ChevronRight className="w-5 h-5 ml-2" />
-            </div>
           </div>
         </div>
       </div>
