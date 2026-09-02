@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { WHATSAPP_CONSULTATION_URL } from '@/lib/constants'
+import { WHATSAPP_CONSULTATION_URL, YOUTUBE_CHANNEL_URL } from '@/lib/constants'
 
 export default function HeroSection() {
   return (
@@ -33,9 +33,14 @@ export default function HeroSection() {
               >
                 🎓 Enroll Your Child
               </Link>
-              <button className="text-ujo-purple font-semibold px-8 py-3 rounded-lg border-2 border-ujo-purple hover:bg-ujo-purple hover:text-ujo-white transition-colors">
+              <a
+                href={YOUTUBE_CHANNEL_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ujo-purple font-semibold px-8 py-3 rounded-lg border-2 border-ujo-purple hover:bg-ujo-purple hover:text-ujo-white transition-colors text-center"
+              >
                 ▶️ Watch Testimonial
-              </button>
+              </a>
             </div>
           </div>
 

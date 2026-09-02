@@ -3,7 +3,7 @@
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { Star } from 'lucide-react'
-import { WHATSAPP_CONSULTATION_TESTIMONIALS_URL } from '@/lib/constants'
+import { WHATSAPP_CONSULTATION_TESTIMONIALS_URL, YOUTUBE_CHANNEL_URL } from '@/lib/constants'
 
 const testimonials = [
   {
@@ -80,6 +80,14 @@ export default function TestimonialsPage() {
             <p className="text-lg text-ujo-text-light max-w-2xl">
               Hear from parents and students who have experienced the Uncle Jay's Academy difference. Real stories from real families achieving real results.
             </p>
+            <a
+              href={YOUTUBE_CHANNEL_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-6 bg-ujo-purple hover:bg-indigo-700 text-ujo-white font-semibold px-8 py-3 rounded-lg transition-colors"
+            >
+              Watch Testimonials on YouTube
+            </a>
           </div>
         </section>
 

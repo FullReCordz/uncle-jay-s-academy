@@ -2,7 +2,8 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { Mail, Phone } from 'lucide-react'
+import { Mail, Phone, Play } from 'lucide-react'
+import { YOUTUBE_CHANNEL_URL } from '@/lib/constants'
 
 export default function Footer() {
   return (
@@ -96,6 +97,17 @@ export default function Footer() {
                 <span className="sr-only">LinkedIn</span>
                 <span className="w-5 h-5 inline-flex items-center justify-center rounded-sm border border-current text-xs font-bold" aria-hidden="true">
                   in
+                </span>
+              </a>
+              <a
+                href={YOUTUBE_CHANNEL_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ujo-text hover:text-ujo-purple transition-colors"
+              >
+                <span className="sr-only">YouTube</span>
+                <span className="w-5 h-5 inline-flex items-center justify-center rounded-sm border border-current" aria-hidden="true">
+                  <Play className="w-3 h-3 fill-current" />
                 </span>
               </a>
             </div>
