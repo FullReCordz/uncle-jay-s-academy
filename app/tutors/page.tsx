@@ -33,9 +33,10 @@ export default function TutorsPage() {
       />
 
       <TutorProfile
-        name="Faleti Iretioluwa"
-        role="Sciences"
-        bio="Mr. Ireti is a seasoned Physics and Chemistry teacher with nearly 14 years of experience. He believes that digital technology is an effective medium for facilitating learning and is passionate about the teaching and learning process."
+        name="Daniel Egwuenu"
+        role="Science"
+        image="/tutors/daniel-egwuenu.png"
+        bio="Popularly known as Sage, Daniel brings 7 years of classroom experience, focusing on practical, hands-on learning. His passion lies in linking classroom lessons with real-life applications for lasting impact. He uniquely creates a spark that transforms ordinary lessons into exciting discoveries, encouraging students to explore, ask questions, and experiment with ideas. Every learner is actively engaged through his innovative and interactive teaching methods."
       />
 
       <TutorProfile
