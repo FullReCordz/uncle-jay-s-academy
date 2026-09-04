@@ -50,14 +50,14 @@ export default function TutorsPage() {
       <TutorProfile
         name="David Ajayi"
         role="Information & Technology"
-        bio=""
+        bio="David Ajayi teaches Information & Technology, helping students develop practical knowledge of technology, digital skills, and the role of IT in today's world. His approach encourages students to build confidence with technology while developing problem-solving and critical-thinking skills."
       />
 
       <TutorProfile
         name="Ajose Deji"
         role="Architectural Design"
         reversed
-        bio=""
+        bio="Ajose Deji teaches Architectural Design, introducing students to the principles of design, creativity, planning, and architectural thinking. His approach encourages students to transform ideas into thoughtful designs while developing their creativity and attention to detail."
       />
 
       {/* CTA Section */}
