@@ -1,4 +1,4 @@
-import Image from 'next/image'
+timport Image from 'next/image'
 import { WHATSAPP_CONSULTATION_URL } from '@/lib/constants'
 import { BookOpen, Heart, Target, Compass } from 'lucide-react'
 
