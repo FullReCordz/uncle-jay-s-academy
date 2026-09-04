@@ -33,29 +33,31 @@ export default function TutorsPage() {
       />
 
       <TutorProfile
-        name="Faleti Iretioluwa"
-        role="Sciences"
-        bio="Mr. Ireti is a seasoned Physics and Chemistry teacher with nearly 14 years of experience. He believes that digital technology is an effective medium for facilitating learning and is passionate about the teaching and learning process."
+        name="Daniel Egwuenu"
+        role="Science"
+        image="/tutors/daniel-egwuenu.png"
+        bio="Popularly known as Sage, Daniel brings 7 years of classroom experience, focusing on practical, hands-on learning. His passion lies in linking classroom lessons with real-life applications for lasting impact. He uniquely creates a spark that transforms ordinary lessons into exciting discoveries, encouraging students to explore, ask questions, and experiment with ideas. Every learner is actively engaged through his innovative and interactive teaching methods."
       />
 
       <TutorProfile
         name="Akinyemi Paul"
         role="Arts"
+        image="/tutors/akinyemi-paul.png"
         reversed
-        bio=""
+        bio="Mr Paul engages students through discussions on current affairs, governmental policies, case studies of Nigerian global governance issues and Literature in English. He encourages creative thought and how to see beyond literary words. He has a unique and interactive approach of engaging students through discussions and debates for active learning."
       />
 
       <TutorProfile
         name="David Ajayi"
         role="Information & Technology"
-        bio=""
+        bio="David Ajayi teaches Information & Technology, helping students develop practical knowledge of technology, digital skills, and the role of IT in today's world. His approach encourages students to build confidence with technology while developing problem-solving and critical-thinking skills."
       />
 
       <TutorProfile
         name="Ajose Deji"
         role="Architectural Design"
         reversed
-        bio=""
+        bio="Ajose Deji teaches Architectural Design, introducing students to the principles of design, creativity, planning, and architectural thinking. His approach encourages students to transform ideas into thoughtful designs while developing their creativity and attention to detail."
       />
 
       {/* CTA Section */}

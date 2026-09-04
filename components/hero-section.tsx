@@ -47,12 +47,12 @@ export default function HeroSection() {
           {/* Illustration */}
           <div className="order-1 md:order-2">
             <div className="bg-ujo-white rounded-2xl shadow-2xl p-8 relative">
-              <div className="aspect-square bg-gradient-to-br from-ujo-purple/20 to-ujo-gold/20 rounded-xl flex items-center justify-center relative overflow-hidden">
+              <div className="aspect-video bg-gradient-to-br from-ujo-purple/20 to-ujo-gold/20 rounded-xl flex items-center justify-center relative overflow-hidden">
                 <Image
                   src="/academy-entrance.jpeg"
                   alt="Children standing outside Uncle Jay's Academy"
                   fill
-                  className="object-cover rounded-xl"
+                  className="object-contain rounded-xl"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
