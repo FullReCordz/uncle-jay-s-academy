@@ -42,6 +42,7 @@ export default function TutorsPage() {
       <TutorProfile
         name="Akinyemi Paul"
         role="Arts"
+        image="/tutors/akinyemi-paul.png"
         reversed
         bio="Mr Paul engages students through discussions on current affairs, governmental policies, case studies of Nigerian global governance issues and Literature in English. He encourages creative thought and how to see beyond literary words. He has a unique and interactive approach of engaging students through discussions and debates for active learning."
       />
