@@ -21,13 +21,13 @@ export default function TutorProfile({
         <div className={`grid md:grid-cols-2 gap-12 items-center`}>
           {/* Image */}
           <div className={reversed ? 'md:order-2' : ''}>
-            <div className="relative h-96 md:h-full rounded-2xl overflow-hidden shadow-lg">
+            <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-lg bg-ujo-blue-dark">
               {image ? (
                 <Image
                   src={image}
                   alt={name}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                   priority
                 />
               ) : null}
